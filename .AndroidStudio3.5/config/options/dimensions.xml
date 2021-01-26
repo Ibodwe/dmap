@@ -1,0 +1,42 @@
+<application>
+  <component name="DimensionService">
+    <location key="WELCOME_SCREEN.0.0.1920.1080@120dpi" x="968" y="461" />
+    <location key="GitCloneDialog.0.0.1920.1080@120dpi" x="624" y="414" />
+    <location key="com.intellij.ide.util.TipDialog.0.0.1920.1080@120dpi" x="573" y="294" />
+    <location key="#PSD.0.0.1920.1080@120dpi" x="329" y="145" />
+    <location key="SettingsEditor.0.0.1920.1080@120dpi" x="328" y="0" />
+    <location key="FileChooserDialogImpl.0.0.1920.1080@120dpi" x="686" y="190" />
+    <location key="git4idea.merge.GitPullDialog.0.0.1920.1080@120dpi" x="566" y="251" />
+    <location key="CommitChangelistDialog2.0.0.1920.1080@120dpi" x="429" y="0" />
+    <location key="MergeDialog.0.0.1920.1080@120dpi" x="169" y="46" />
+    <location key="MultipleFileMergeDialog.0.0.1920.1080@120dpi" x="600" y="163" />
+    <location key="ProcessPopupWindow.0.0.1920.1080@120dpi" x="954" y="885" />
+    <location key="find.popup.0.0.1920.1080@120dpi" x="578" y="93" />
+    <location key="#Notifications.0.0.1920.1080@120dpi" x="451" y="88" />
+    <location key="#app.0.0.1920.1080@120dpi" x="675" y="71" />
+    <location key="AndroidCreateResourceFileDialog.0.0.1920.1080@120dpi" x="436" y="208" />
+    <location key="run.anything.popup.0.0.1920.1080@120dpi" x="531" y="228" />
+    <location key="#com.intellij.ide.util.MemberChooser.0.0.1920.1080@120dpi" x="698" y="159" />
+    <location key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog.0.0.1920.1080@120dpi" x="624" y="208" />
+    <location key="search.everywhere.popup.0.0.1920.1080@120dpi" x="539" y="183" />
+    <location key="AndroidProcessChooserDialog.0.0.1920.1080@120dpi" x="780" y="220" />
+    <location key="Vcs.Push.Dialog.0.0.1920.1080@120dpi" x="556" y="163" />
+    <location key="git4idea.merge.GitMergeDialog.0.0.1920.1080@120dpi" x="621" y="251" />
+    <location key="#Updates.0.0.1920.1080@120dpi" x="451" y="88" />
+    <size key="GitCloneDialog.0.0.1920.1080@120dpi" width="724" height="202" />
+    <size key="SettingsEditor.0.0.1920.1080@120dpi" width="1294" height="1030" />
+    <size key="GridCell.Tab.0.left.0.0.1920.1080@120dpi" width="1863" height="207" />
+    <size key="GridCell.Tab.0.center.0.0.1920.1080@120dpi" width="1863" height="207" />
+    <size key="GridCell.Tab.0.right.0.0.1920.1080@120dpi" width="1863" height="207" />
+    <size key="GridCell.Tab.0.bottom.0.0.1920.1080@120dpi" width="1863" height="207" />
+    <size key="ProcessPopupWindow.0.0.1920.1080@120dpi" width="500" height="150" />
+    <size key="find.popup.0.0.1920.1080@120dpi" width="764" height="844" />
+    <size key="javadoc.popup.0.0.1920.1080@120dpi" width="750" height="530" />
+    <size key="search.everywhere.popup.0.0.1920.1080@120dpi" width="840" height="850" />
+    <size key="GridCell.Tab.1.left.0.0.1920.1080@120dpi" width="1863" height="207" />
+    <size key="GridCell.Tab.1.center.0.0.1920.1080@120dpi" width="1863" height="207" />
+    <size key="GridCell.Tab.1.right.0.0.1920.1080@120dpi" width="1863" height="207" />
+    <size key="GridCell.Tab.1.bottom.0.0.1920.1080@120dpi" width="1863" height="207" />
+    <size key="CommitChangelistDialog2.0.0.1920.1080@120dpi" width="1418" height="1030" />
+  </component>
+</application>

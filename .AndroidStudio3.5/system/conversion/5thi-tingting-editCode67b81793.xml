@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<conversion>
+  <applied-converters>
+    <converter id="android-module-to-java-module" />
+    <converter id="android-native-run-configurations" />
+    <converter id="android-proguard-options" />
+    <converter id="android-sdk-library" />
+    <converter id="groovy-modules-to-facets" />
+    <converter id="groovy-script-run-configurations" />
+    <converter id="junit-to-android-junit-configurations" />
+    <converter id="kotlin-non-jvm-source-roots" />
+    <converter id="remove-java-aware-configurations" />
+  </applied-converters>
+  <project-files>
+    <file path="C:\Users\chlwj\AndroidStudioProjects\5thi-tingting-editCode\.idea\5thi-tingting-editCode.iml" timestamp="1582122122132" />
+    <file path="C:\Users\chlwj\AndroidStudioProjects\5thi-tingting-editCode\.idea\codeStyles\Project.xml" timestamp="1582122085422" />
+    <file path="C:\Users\chlwj\AndroidStudioProjects\5thi-tingting-editCode\.idea\codeStyles\codeStyleConfig.xml" timestamp="1582122085422" />
+    <file path="C:\Users\chlwj\AndroidStudioProjects\5thi-tingting-editCode\.idea\compiler.xml" timestamp="1582122085422" />
+    <file path="C:\Users\chlwj\AndroidStudioProjects\5thi-tingting-editCode\.idea\gradle.xml" timestamp="1582122085423" />
+    <file path="C:\Users\chlwj\AndroidStudioProjects\5thi-tingting-editCode\.idea\libraries\Gradle__androidx_activity_activity_1_0_0_aar.xml" timestamp="1582122591156" />
+    <file path="C:\Users\chlwj\AndroidStudioProjects\5thi-tingting-editCode\.idea\libraries\Gradle__androidx_annotation_annotation_1_1_0_jar.xml" timestamp="1582122134293" />
+    <file path="C:\Users\chlwj\AndroidStudioProjects\5thi-tingting-editCode\.idea\libraries\Gradle__androidx_appcompat_appcompat_1_1_0_aar.xml" timestamp="1582122591181" />
+    <file path="C:\Users\chlwj\AndroidStudioProjects\5thi-tingting-editCode\.idea\libraries\Gradle__androidx_appcompat_appcompat_resources_1_1_0_aar.xml" timestamp="1582122591185" />
+    <file path="C:\Users\chlwj\AndroidStudioProjects\5thi-tingting-editCode\.idea\libraries\Gradle__androidx_arch_core_core_common_2_1_0_jar.xml" timestamp="1582122134316" />
+    <file path="C:\Users\chlwj\AndroidStudioProjects\5thi-tingting-editCode\.idea\libraries\Gradle__androidx_arch_core_core_runtime_2_0_1_aar.xml" timestamp="1582122591194" />
+    <file path="C:\Users\chlwj\AndroidStudioProjects\5thi-tingting-editCode\.idea\libraries\Gradle__androidx_asynclayoutinflater_asynclayoutinflater_1_0_0_aar.xml" timestamp="1582122591291" />
+    <file path="C:\Users\chlwj\AndroidStudioProjects\5thi-tingting-editCode\.idea\libraries\Gradle__androidx_cardview_cardview_1_0_0_aar.xml" timestamp="1582122591332" />
+    <file path="C:\Users\chlwj\AndroidStudioProjects\5thi-tingting-editCode\.idea\libraries\Gradle__androidx_collection_collection_1_1_0_jar.xml" timestamp="1582122134346" />
+    <file path="C:\Users\chlwj\AndroidStudioProjects\5thi-tingting-editCode\.idea\libraries\Gradle__androidx_constraintlayout_constraintlayout_1_1_3_aar.xml" timestamp="1582122591356" />
+    <file path="C:\Users\chlwj\AndroidStudioProjects\5thi-tingting-editCode\.idea\libraries\Gradle__androidx_constraintlayout_constraintlayout_solver_1_1_3_jar.xml" timestamp="1582122134363" />
+    <file path="C:\Users\chlwj\AndroidStudioProjects\5thi-tingting-editCode\.idea\libraries\Gradle__androidx_coordinatorlayout_coordinatorlayout_1_1_0_beta01_aar.xml" timestamp="1582122591416" />
+    <file path="C:\Users\chlwj\AndroidStudioProjects\5thi-tingting-editCode\.idea\libraries\Gradle__androidx_core_core_1_3_0_alpha01_aar.xml" timestamp="1582122591587" />
+    <file path="C:\Users\chlwj\AndroidStudioProjects\5thi-tingting-editCode\.idea\libraries\Gradle__androidx_core_core_ktx_1_3_0_alpha01_aar.xml" timestamp="1582122591640" />
+    <file path="C:\Users\chlwj\AndroidStudioProjects\5thi-tingting-editCode\.idea\libraries\Gradle__androidx_cursoradapter_cursoradapter_1_0_0_aar.xml" timestamp="1582122591707" />
+    <file path="C:\Users\chlwj\AndroidStudioProjects\5thi-tingting-editCode\.idea\libraries\Gradle__androidx_customview_customview_1_0_0_aar.xml" timestamp="1582122591905" />
+    <file path="C:\Users\chlwj\AndroidStudioProjects\5thi-tingting-editCode\.idea\libraries\Gradle__androidx_documentfile_documentfile_1_0_0_aar.xml" timestamp="1582122591941" />
+    <file path="C:\Users\chlwj\AndroidStudioProjects\5thi-tingting-editCode\.idea\libraries\Gradle__androidx_drawerlayout_drawerlayout_1_0_0_aar.xml" timestamp="1582122591952" />
+    <file path="C:\Users\chlwj\AndroidStudioProjects\5thi-tingting-editCode\.idea\libraries\Gradle__androidx_exifinterface_exifinterface_1_0_0_aar.xml" timestamp="1582122591965" />
+    <file path="C:\Users\chlwj\AndroidStudioProjects\5thi-tingting-editCode\.idea\libraries\Gradle__androidx_fragment_fragment_1_1_0_aar.xml" timestamp="1582122591973" />
+    <file path="C:\Users\chlwj\AndroidStudioProjects\5thi-tingting-editCode\.idea\libraries\Gradle__androidx_interpolator_interpolator_1_0_0_aar.xml" timestamp="1582122591982" />
+    <file path="C:\Users\chlwj\AndroidStudioProjects\5thi-tingting-editCode\.idea\libraries\Gradle__androidx_legacy_legacy_support_core_ui_1_0_0_aar.xml" timestamp="1582122591989" />
+    <file path="C:\Users\chlwj\AndroidStudioProjects\5thi-tingting-editCode\.idea\libraries\Gradle__androidx_legacy_legacy_support_core_utils_1_0_0_aar.xml" timestamp="1582122591998" />
+    <file path="C:\Users\chlwj\AndroidStudioProjects\5thi-tingting-editCode\.idea\libraries\Gradle__androidx_legacy_legacy_support_v4_1_0_0_aar.xml" timestamp="1582122592004" />
+    <file path="C:\Users\chlwj\AndroidStudioProjects\5thi-tingting-editCode\.idea\libraries\Gradle__androidx_lifecycle_lifecycle_common_2_1_0_jar.xml" timestamp="1582122134481" />
+    <file path="C:\Users\chlwj\AndroidStudioProjects\5thi-tingting-editCode\.idea\libraries\Gradle__androidx_lifecycle_lifecycle_extensions_2_0_0_aar.xml" timestamp="1582122592013" />
+    <file path="C:\Users\chlwj\AndroidStudioProjects\5thi-tingting-editCode\.idea\libraries\Gradle__androidx_lifecycle_lifecycle_livedata_2_0_0_aar.xml" timestamp="1582122592017" />
+    <file path="C:\Users\chlwj\AndroidStudioProjects\5thi-tingting-editCode\.idea\libraries\Gradle__androidx_lifecycle_lifecycle_livedata_core_2_0_0_aar.xml" timestamp="1582122592021" />
+    <file path="C:\Users\chlwj\AndroidStudioProjects\5thi-tingting-editCode\.idea\libraries\Gradle__androidx_lifecycle_lifecycle_process_2_0_0_aar.xml" timestamp="1582122592029" />
+    <file path="C:\Users\chlwj\AndroidStudioProjects\5thi-tingting-editCode\.idea\libraries\Gradle__androidx_lifecycle_lifecycle_runtime_2_1_0_aar.xml" timestamp="1582122592033" />
+    <file path="C:\Users\chlwj\AndroidStudioProjects\5thi-tingting-editCode\.idea\libraries\Gradle__androidx_lifecycle_lifecycle_service_2_0_0_aar.xml" timestamp="1582122592040" />
+    <file path="C:\Users\chlwj\AndroidStudioProjects\5thi-tingting-editCode\.idea\libraries\Gradle__androidx_lifecycle_lifecycle_viewmodel_2_1_0_aar.xml" timestamp="1582122592046" />
+    <file path="C:\Users\chlwj\AndroidStudioProjects\5thi-tingting-editCode\.idea\libraries\Gradle__androidx_loader_loader_1_0_0_aar.xml" timestamp="1582122592050" />
+    <file path="C:\Users\chlwj\AndroidStudioProjects\5thi-tingting-editCode\.idea\libraries\Gradle__androidx_localbroadcastmanager_localbroadcastmanager_1_0_0_aar.xml" timestamp="1582122592053" />
+    <file path="C:\Users\chlwj\AndroidStudioProjects\5thi-tingting-editCode\.idea\libraries\Gradle__androidx_media_media_1_0_0_aar.xml" timestamp="1582122592057" />
+    <file path="C:\Users\chlwj\AndroidStudioProjects\5thi-tingting-editCode\.idea\libraries\Gradle__androidx_paging_paging_common_2_1_0_jar.xml" timestamp="1582122592067" />
+    <file path="C:\Users\chlwj\AndroidStudioProjects\5thi-tingting-editCode\.idea\libraries\Gradle__androidx_paging_paging_runtime_2_1_0_aar.xml" timestamp="1582122592075" />
+    <file path="C:\Users\chlwj\AndroidStudioProjects\5thi-tingting-editCode\.idea\libraries\Gradle__androidx_print_print_1_0_0_aar.xml" timestamp="1582122592081" />
+    <file path="C:\Users\chlwj\AndroidStudioProjects\5thi-tingting-editCode\.idea\libraries\Gradle__androidx_recyclerview_recyclerview_1_1_0_rc01_aar.xml" timestamp="1582122592088" />
+    <file path="C:\Users\chlwj\AndroidStudioProjects\5thi-tingting-editCode\.idea\libraries\Gradle__androidx_room_room_common_2_2_2_jar.xml" timestamp="1582122592098" />
+    <file path="C:\Users\chlwj\AndroidStudioProjects\5thi-tingting-editCode\.idea\libraries\Gradle__androidx_room_room_runtime_2_2_2_aar.xml" timestamp="1582122592105" />
+    <file path="C:\Users\chlwj\AndroidStudioProjects\5thi-tingting-editCode\.idea\libraries\Gradle__androidx_savedstate_savedstate_1_0_0_aar.xml" timestamp="1582122592114" />
+    <file path="C:\Users\chlwj\AndroidStudioProjects\5thi-tingting-editCode\.idea\libraries\Gradle__androidx_slidingpanelayout_slidingpanelayout_1_0_0_aar.xml" timestamp="1582122592118" />
+    <file path="C:\Users\chlwj\AndroidStudioProjects\5thi-tingting-editCode\.idea\libraries\Gradle__androidx_sqlite_sqlite_2_0_1_aar.xml" timestamp="1582122592124" />
+    <file path="C:\Users\chlwj\AndroidStudioProjects\5thi-tingting-editCode\.idea\libraries\Gradle__androidx_sqlite_sqlite_framework_2_0_1_aar.xml" timestamp="1582122592133" />
+    <file path="C:\Users\chlwj\AndroidStudioProjects\5thi-tingting-editCode\.idea\libraries\Gradle__androidx_swiperefreshlayout_swiperefreshlayout_1_1_0_alpha02_aar.xml" timestamp="1582122592140" />
+    <file path="C:\Users\chlwj\AndroidStudioProjects\5thi-tingting-editCode\.idea\libraries\Gradle__androidx_test_core_1_1_0_aar.xml" timestamp="1582122592147" />
+    <file path="C:\Users\chlwj\AndroidStudioProjects\5thi-tingting-editCode\.idea\libraries\Gradle__androidx_test_espresso_espresso_core_3_1_1_aar.xml" timestamp="1582122592151" />
+    <file path="C:\Users\chlwj\AndroidStudioProjects\5thi-tingting-editCode\.idea\libraries\Gradle__androidx_test_espresso_espresso_idling_resource_3_1_1_aar.xml" timestamp="1582122592155" />
+    <file path="C:\Users\chlwj\AndroidStudioProjects\5thi-tingting-editCode\.idea\libraries\Gradle__androidx_test_ext_junit_1_1_0_aar.xml" timestamp="1582122592159" />
+    <file path="C:\Users\chlwj\AndroidStudioProjects\5thi-tingting-editCode\.idea\libraries\Gradle__androidx_test_monitor_1_1_1_aar.xml" timestamp="1582122592164" />
+    <file path="C:\Users\chlwj\AndroidStudioProjects\5thi-tingting-editCode\.idea\libraries\Gradle__androidx_test_runner_1_1_1_aar.xml" timestamp="1582122592169" />
+    <file path="C:\Users\chlwj\AndroidStudioProjects\5thi-tingting-editCode\.idea\libraries\Gradle__androidx_transition_transition_1_2_0_aar.xml" timestamp="1582122592172" />
+    <file path="C:\Users\chlwj\AndroidStudioProjects\5thi-tingting-editCode\.idea\libraries\Gradle__androidx_vectordrawable_vectordrawable_1_1_0_aar.xml" timestamp="1582122592180" />
+    <file path="C:\Users\chlwj\AndroidStudioProjects\5thi-tingting-editCode\.idea\libraries\Gradle__androidx_vectordrawable_vectordrawable_animated_1_1_0_aar.xml" timestamp="1582122592189" />
+    <file path="C:\Users\chlwj\AndroidStudioProjects\5thi-tingting-editCode\.idea\libraries\Gradle__androidx_versionedparcelable_versionedparcelable_1_1_0_aar.xml" timestamp="1582122592194" />
+    <file path="C:\Users\chlwj\AndroidStudioProjects\5thi-tingting-editCode\.idea\libraries\Gradle__androidx_viewpager2_viewpager2_1_0_0_beta05_aar.xml" timestamp="1582122592200" />
+    <file path="C:\Users\chlwj\AndroidStudioProjects\5thi-tingting-editCode\.idea\libraries\Gradle__androidx_viewpager_viewpager_1_0_0_aar.xml" timestamp="1582122592204" />
+    <file path="C:\Users\chlwj\AndroidStudioProjects\5thi-tingting-editCode\.idea\libraries\Gradle__com_github_Jay_Goo_RangeSeekBar_3_0_0_aar.xml" timestamp="1582122592215" />
+    <file path="C:\Users\chlwj\AndroidStudioProjects\5thi-tingting-editCode\.idea\libraries\Gradle__com_github_anonymous_ME_TagsEditText_0_5_0_aar.xml" timestamp="1582122592222" />
+    <file path="C:\Users\chlwj\AndroidStudioProjects\5thi-tingting-editCode\.idea\libraries\Gradle__com_github_bumptech_glide_annotations_4_9_0_jar.xml" timestamp="1582122592232" />
+    <file path="C:\Users\chlwj\AndroidStudioProjects\5thi-tingting-editCode\.idea\libraries\Gradle__com_github_bumptech_glide_disklrucache_4_9_0_jar.xml" timestamp="1582122592239" />
+    <file path="C:\Users\chlwj\AndroidStudioProjects\5thi-tingting-editCode\.idea\libraries\Gradle__com_github_bumptech_glide_gifdecoder_4_9_0_aar.xml" timestamp="1582122592249" />
+    <file path="C:\Users\chlwj\AndroidStudioProjects\5thi-tingting-editCode\.idea\libraries\Gradle__com_github_bumptech_glide_glide_4_9_0_aar.xml" timestamp="1582122592256" />
+    <file path="C:\Users\chlwj\AndroidStudioProjects\5thi-tingting-editCode\.idea\libraries\Gradle__com_github_niwattep_material_slide_date_picker_v2_0_0_aar.xml" timestamp="1582122592265" />
+    <file path="C:\Users\chlwj\AndroidStudioProjects\5thi-tingting-editCode\.idea\libraries\Gradle__com_github_ronaldsmartin_Material_ViewPagerIndicator_1_0_4_aar.xml" timestamp="1582122592272" />
+    <file path="C:\Users\chlwj\AndroidStudioProjects\5thi-tingting-editCode\.idea\libraries\Gradle__com_github_varunest_sparkbutton_1_0_6_aar.xml" timestamp="1582122592280" />
+    <file path="C:\Users\chlwj\AndroidStudioProjects\5thi-tingting-editCode\.idea\libraries\Gradle__com_google_android_flexbox_1_0_0_aar.xml" timestamp="1582122592287" />
+    <file path="C:\Users\chlwj\AndroidStudioProjects\5thi-tingting-editCode\.idea\libraries\Gradle__com_google_android_gms_play_services_ads_identifier_17_0_0_aar.xml" timestamp="1582122592295" />
+    <file path="C:\Users\chlwj\AndroidStudioProjects\5thi-tingting-editCode\.idea\libraries\Gradle__com_google_android_gms_play_services_base_17_0_0_aar.xml" timestamp="1582122592305" />
+    <file path="C:\Users\chlwj\AndroidStudioProjects\5thi-tingting-editCode\.idea\libraries\Gradle__com_google_android_gms_play_services_basement_17_0_0_aar.xml" timestamp="1582122592313" />
+    <file path="C:\Users\chlwj\AndroidStudioProjects\5thi-tingting-editCode\.idea\libraries\Gradle__com_google_android_gms_play_services_measurement_17_2_2_aar.xml" timestamp="1582122592320" />
+    <file path="C:\Users\chlwj\AndroidStudioProjects\5thi-tingting-editCode\.idea\libraries\Gradle__com_google_android_gms_play_services_measurement_api_17_2_2_aar.xml" timestamp="1582122592328" />
+    <file path="C:\Users\chlwj\AndroidStudioProjects\5thi-tingting-editCode\.idea\libraries\Gradle__com_google_android_gms_play_services_measurement_base_17_2_2_aar.xml" timestamp="1582122592336" />
+    <file path="C:\Users\chlwj\AndroidStudioProjects\5thi-tingting-editCode\.idea\libraries\Gradle__com_google_android_gms_play_services_measurement_impl_17_2_2_aar.xml" timestamp="1582122592343" />
+    <file path="C:\Users\chlwj\AndroidStudioProjects\5thi-tingting-editCode\.idea\libraries\Gradle__com_google_android_gms_play_services_measurement_sdk_17_2_2_aar.xml" timestamp="1582122592352" />
+    <file path="C:\Users\chlwj\AndroidStudioProjects\5thi-tingting-editCode\.idea\libraries\Gradle__com_google_android_gms_play_services_measurement_sdk_api_17_2_2_aar.xml" timestamp="1582122592360" />
+    <file path="C:\Users\chlwj\AndroidStudioProjects\5thi-tingting-editCode\.idea\libraries\Gradle__com_google_android_gms_play_services_stats_17_0_0_aar.xml" timestamp="1582122592368" />
+    <file path="C:\Users\chlwj\AndroidStudioProjects\5thi-tingting-editCode\.idea\libraries\Gradle__com_google_android_gms_play_services_tasks_17_0_0_aar.xml" timestamp="1582122592375" />
+    <file path="C:\Users\chlwj\AndroidStudioProjects\5thi-tingting-editCode\.idea\libraries\Gradle__com_google_android_material_material_1_2_0_alpha01_aar.xml" timestamp="1582122592380" />
+    <file path="C:\Users\chlwj\AndroidStudioProjects\5thi-tingting-editCode\.idea\libraries\Gradle__com_google_auto_value_auto_value_annotations_1_6_5_jar.xml" timestamp="1582122592387" />
+    <file path="C:\Users\chlwj\AndroidStudioProjects\5thi-tingting-editCode\.idea\libraries\Gradle__com_google_code_findbugs_jsr305_2_0_1_jar.xml" timestamp="1582122134716" />
+    <file path="C:\Users\chlwj\AndroidStudioProjects\5thi-tingting-editCode\.idea\libraries\Gradle__com_google_code_gson_gson_2_8_5_jar.xml" timestamp="1582122592400" />
+    <file path="C:\Users\chlwj\AndroidStudioProjects\5thi-tingting-editCode\.idea\libraries\Gradle__com_google_firebase_firebase_analytics_17_2_2_aar.xml" timestamp="1582122592407" />
+    <file path="C:\Users\chlwj\AndroidStudioProjects\5thi-tingting-editCode\.idea\libraries\Gradle__com_google_firebase_firebase_common_19_3_0_aar.xml" timestamp="1582122592416" />
+    <file path="C:\Users\chlwj\AndroidStudioProjects\5thi-tingting-editCode\.idea\libraries\Gradle__com_google_firebase_firebase_components_16_0_0_aar.xml" timestamp="1582122592422" />
+    <file path="C:\Users\chlwj\AndroidStudioProjects\5thi-tingting-editCode\.idea\libraries\Gradle__com_google_firebase_firebase_core_17_0_0_aar.xml" timestamp="1582122592431" />
+    <file path="C:\Users\chlwj\AndroidStudioProjects\5thi-tingting-editCode\.idea\libraries\Gradle__com_google_firebase_firebase_iid_20_0_2_aar.xml" timestamp="1582122592438" />
+    <file path="C:\Users\chlwj\AndroidStudioProjects\5thi-tingting-editCode\.idea\libraries\Gradle__com_google_firebase_firebase_iid_interop_17_0_0_aar.xml" timestamp="1582122592446" />
+    <file path="C:\Users\chlwj\AndroidStudioProjects\5thi-tingting-editCode\.idea\libraries\Gradle__com_google_firebase_firebase_measurement_connector_18_0_0_aar.xml" timestamp="1582122592453" />
+    <file path="C:\Users\chlwj\AndroidStudioProjects\5thi-tingting-editCode\.idea\libraries\Gradle__com_jakewharton_rxbinding2_rxbinding_2_1_1_aar.xml" timestamp="1582122592459" />
+    <file path="C:\Users\chlwj\AndroidStudioProjects\5thi-tingting-editCode\.idea\libraries\Gradle__com_jakewharton_rxbinding2_rxbinding_kotlin_2_1_1_aar.xml" timestamp="1582122592467" />
+    <file path="C:\Users\chlwj\AndroidStudioProjects\5thi-tingting-editCode\.idea\libraries\Gradle__com_kakao_sdk_auth_1_25_0_aar.xml" timestamp="1582122592473" />
+    <file path="C:\Users\chlwj\AndroidStudioProjects\5thi-tingting-editCode\.idea\libraries\Gradle__com_kakao_sdk_common_1_25_0_aar.xml" timestamp="1582122592481" />
+    <file path="C:\Users\chlwj\AndroidStudioProjects\5thi-tingting-editCode\.idea\libraries\Gradle__com_kakao_sdk_network_1_25_0_aar.xml" timestamp="1582122592488" />
+    <file path="C:\Users\chlwj\AndroidStudioProjects\5thi-tingting-editCode\.idea\libraries\Gradle__com_kakao_sdk_usermgmt_1_25_0_aar.xml" timestamp="1582122592499" />
+    <file path="C:\Users\chlwj\AndroidStudioProjects\5thi-tingting-editCode\.idea\libraries\Gradle__com_kakao_sdk_util_1_25_0_aar.xml" timestamp="1582122592506" />
+    <file path="C:\Users\chlwj\AndroidStudioProjects\5thi-tingting-editCode\.idea\libraries\Gradle__com_squareup_javawriter_2_1_1_jar.xml" timestamp="1582122134729" />
+    <file path="C:\Users\chlwj\AndroidStudioProjects\5thi-tingting-editCode\.idea\libraries\Gradle__com_squareup_okhttp3_logging_interceptor_3_10_0_jar.xml" timestamp="1582122592515" />
+    <file path="C:\Users\chlwj\AndroidStudioProjects\5thi-tingting-editCode\.idea\libraries\Gradle__com_squareup_okhttp3_okhttp_3_12_0_jar.xml" timestamp="1582122592521" />
+    <file path="C:\Users\chlwj\AndroidStudioProjects\5thi-tingting-editCode\.idea\libraries\Gradle__com_squareup_okio_okio_1_15_0_jar.xml" timestamp="1582122592530" />
+    <file path="C:\Users\chlwj\AndroidStudioProjects\5thi-tingting-editCode\.idea\libraries\Gradle__com_squareup_retrofit2_converter_gson_2_6_0_jar.xml" timestamp="1582122592536" />
+    <file path="C:\Users\chlwj\AndroidStudioProjects\5thi-tingting-editCode\.idea\libraries\Gradle__com_squareup_retrofit2_retrofit_2_6_0_jar.xml" timestamp="1582122592543" />
+    <file path="C:\Users\chlwj\AndroidStudioProjects\5thi-tingting-editCode\.idea\libraries\Gradle__com_theartofdev_edmodo_android_image_cropper_2_6_0_aar.xml" timestamp="1582122592551" />
+    <file path="C:\Users\chlwj\AndroidStudioProjects\5thi-tingting-editCode\.idea\libraries\Gradle__gun0912_ted_tedpermission_2_1_0_aar.xml" timestamp="1582122592555" />
+    <file path="C:\Users\chlwj\AndroidStudioProjects\5thi-tingting-editCode\.idea\libraries\Gradle__info_hoang8f_android_segmented_1_0_6_aar.xml" timestamp="1582122592562" />
+    <file path="C:\Users\chlwj\AndroidStudioProjects\5thi-tingting-editCode\.idea\libraries\Gradle__io_reactivex_rxjava2_rxandroid_2_0_1_aar.xml" timestamp="1582122592569" />
+    <file path="C:\Users\chlwj\AndroidStudioProjects\5thi-tingting-editCode\.idea\libraries\Gradle__io_reactivex_rxjava2_rxjava_2_1_9_jar.xml" timestamp="1582122592576" />
+    <file path="C:\Users\chlwj\AndroidStudioProjects\5thi-tingting-editCode\.idea\libraries\Gradle__io_reactivex_rxjava2_rxkotlin_2_2_0_jar.xml" timestamp="1582122592582" />
+    <file path="C:\Users\chlwj\AndroidStudioProjects\5thi-tingting-editCode\.idea\libraries\Gradle__javax_inject_javax_inject_1_jar.xml" timestamp="1582122134749" />
+    <file path="C:\Users\chlwj\AndroidStudioProjects\5thi-tingting-editCode\.idea\libraries\Gradle__junit_junit_4_12_jar.xml" timestamp="1582122134760" />
+    <file path="C:\Users\chlwj\AndroidStudioProjects\5thi-tingting-editCode\.idea\libraries\Gradle__me_gujun_android_taggroup_library_1_4_aar.xml" timestamp="1582122592616" />
+    <file path="C:\Users\chlwj\AndroidStudioProjects\5thi-tingting-editCode\.idea\libraries\Gradle__me_relex_circleindicator_1_3_2_aar.xml" timestamp="1582122592626" />
+    <file path="C:\Users\chlwj\AndroidStudioProjects\5thi-tingting-editCode\.idea\libraries\Gradle__net_sf_kxml_kxml2_2_3_0_jar.xml" timestamp="1582122134766" />
+    <file path="C:\Users\chlwj\AndroidStudioProjects\5thi-tingting-editCode\.idea\libraries\Gradle__org_hamcrest_hamcrest_core_1_3_jar.xml" timestamp="1582122134775" />
+    <file path="C:\Users\chlwj\AndroidStudioProjects\5thi-tingting-editCode\.idea\libraries\Gradle__org_hamcrest_hamcrest_integration_1_3_jar.xml" timestamp="1582122134781" />
+    <file path="C:\Users\chlwj\AndroidStudioProjects\5thi-tingting-editCode\.idea\libraries\Gradle__org_hamcrest_hamcrest_library_1_3_jar.xml" timestamp="1582122134791" />
+    <file path="C:\Users\chlwj\AndroidStudioProjects\5thi-tingting-editCode\.idea\libraries\Gradle__org_jetbrains_annotations_13_0_jar.xml" timestamp="1582122134798" />
+    <file path="C:\Users\chlwj\AndroidStudioProjects\5thi-tingting-editCode\.idea\libraries\Gradle__org_jetbrains_kotlin_kotlin_android_extensions_runtime_1_3_50_jar.xml" timestamp="1582122134822" />
+    <file path="C:\Users\chlwj\AndroidStudioProjects\5thi-tingting-editCode\.idea\libraries\Gradle__org_jetbrains_kotlin_kotlin_stdlib_1_3_61_jar.xml" timestamp="1582122592634" />
+    <file path="C:\Users\chlwj\AndroidStudioProjects\5thi-tingting-editCode\.idea\libraries\Gradle__org_jetbrains_kotlin_kotlin_stdlib_common_1_3_61_jar.xml" timestamp="1582122592643" />
+    <file path="C:\Users\chlwj\AndroidStudioProjects\5thi-tingting-editCode\.idea\libraries\Gradle__org_jetbrains_kotlin_kotlin_stdlib_jdk7_1_3_50_jar.xml" timestamp="1582122134843" />
+    <file path="C:\Users\chlwj\AndroidStudioProjects\5thi-tingting-editCode\.idea\libraries\Gradle__org_jetbrains_kotlinx_kotlinx_coroutines_android_1_3_3_jar.xml" timestamp="1582122592651" />
+    <file path="C:\Users\chlwj\AndroidStudioProjects\5thi-tingting-editCode\.idea\libraries\Gradle__org_jetbrains_kotlinx_kotlinx_coroutines_core_1_3_3_jar.xml" timestamp="1582122592658" />
+    <file path="C:\Users\chlwj\AndroidStudioProjects\5thi-tingting-editCode\.idea\libraries\Gradle__org_reactivestreams_reactive_streams_1_0_2_jar.xml" timestamp="1582122592666" />
+    <file path="C:\Users\chlwj\AndroidStudioProjects\5thi-tingting-editCode\.idea\misc.xml" timestamp="1582122085423" />
+    <file path="C:\Users\chlwj\AndroidStudioProjects\5thi-tingting-editCode\.idea\modules.xml" timestamp="1582122134273" />
+    <file path="C:\Users\chlwj\AndroidStudioProjects\5thi-tingting-editCode\.idea\runConfigurations.xml" timestamp="1582122085424" />
+    <file path="C:\Users\chlwj\AndroidStudioProjects\5thi-tingting-editCode\.idea\vcs.xml" timestamp="1582122374329" />
+    <file path="C:\Users\chlwj\AndroidStudioProjects\5thi-tingting-editCode\.idea\workspace.xml" timestamp="1582199775029" />
+    <file path="C:\Users\chlwj\AndroidStudioProjects\5thi-tingting-editCode\app\app.iml" timestamp="1582122655895" />
+    <file path="C:\Users\chlwj\AndroidStudioProjects\5thi-tingting-editCode\tintint_JW.iml" timestamp="1582122134244" />
+  </project-files>
+</conversion>
+

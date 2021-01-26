@@ -1,0 +1,80 @@
+<application>
+  <component name="RecentProjectsManager">
+    <option name="recentPaths">
+      <list>
+        <option value="$USER_HOME$/AndroidStudioProjects/5th-tingting-android" />
+        <option value="$USER_HOME$/AndroidStudioProjects/5thi-tingting-editCode" />
+        <option value="$USER_HOME$/AndroidStudioProjects/MyApplication2" />
+        <option value="$USER_HOME$/AndroidStudioProjects/Android-AWS-S3" />
+        <option value="$USER_HOME$/AndroidStudioProjects/MyApplication" />
+      </list>
+    </option>
+    <option name="openPaths">
+      <list>
+        <option value="$USER_HOME$/AndroidStudioProjects/5th-tingting-android" />
+      </list>
+    </option>
+    <option name="lastPath" value="$USER_HOME$/AndroidStudioProjects/5th-tingting-android" />
+    <option name="pid" value="" />
+    <option name="additionalInfo">
+      <map>
+        <entry key="$USER_HOME$/AndroidStudioProjects/5th-tingting-android">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="AI-191.8026.42.35.6010548" />
+              <option name="productionCode" value="AI" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1582633328734" />
+              <option name="buildTimestamp" value="1573801322374" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/AndroidStudioProjects/5thi-tingting-editCode">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="AI-191.8026.42.35.6010548" />
+              <option name="productionCode" value="AI" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1582199771881" />
+              <option name="buildTimestamp" value="1573801373653" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/AndroidStudioProjects/Android-AWS-S3">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="AI-191.8026.42.35.6010548" />
+              <option name="productionCode" value="AI" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1581745411868" />
+              <option name="buildTimestamp" value="1573801327254" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/AndroidStudioProjects/MyApplication">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="AI-191.8026.42.35.6010548" />
+              <option name="productionCode" value="AI" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1581523260441" />
+              <option name="buildTimestamp" value="1573801374191" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/AndroidStudioProjects/MyApplication2">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="AI-191.8026.42.35.6010548" />
+              <option name="productionCode" value="AI" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1582121384101" />
+              <option name="buildTimestamp" value="1573801372883" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="lastProjectLocation" value="$USER_HOME$/AndroidStudioProjects" />
+  </component>
+</application>

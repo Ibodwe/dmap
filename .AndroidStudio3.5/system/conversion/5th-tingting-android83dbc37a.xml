@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<conversion>
+  <applied-converters>
+    <converter id="android-module-to-java-module" />
+    <converter id="android-native-run-configurations" />
+    <converter id="android-proguard-options" />
+    <converter id="android-sdk-library" />
+    <converter id="groovy-modules-to-facets" />
+    <converter id="groovy-script-run-configurations" />
+    <converter id="junit-to-android-junit-configurations" />
+    <converter id="kotlin-non-jvm-source-roots" />
+    <converter id="remove-java-aware-configurations" />
+  </applied-converters>
+  <project-files>
+    <file path="C:\Users\chlwj\AndroidStudioProjects\5th-tingting-android\.idea\codeStyles\Project.xml" timestamp="1582199915497" />
+    <file path="C:\Users\chlwj\AndroidStudioProjects\5th-tingting-android\.idea\codeStyles\codeStyleConfig.xml" timestamp="1582199801550" />
+    <file path="C:\Users\chlwj\AndroidStudioProjects\5th-tingting-android\.idea\gradle.xml" timestamp="1582199775425" />
+    <file path="C:\Users\chlwj\AndroidStudioProjects\5th-tingting-android\.idea\libraries\Gradle__androidx_activity_activity_1_0_0_aar.xml" timestamp="1582456642108" />
+    <file path="C:\Users\chlwj\AndroidStudioProjects\5th-tingting-android\.idea\libraries\Gradle__androidx_annotation_annotation_1_1_0_jar.xml" timestamp="1582456642116" />
+    <file path="C:\Users\chlwj\AndroidStudioProjects\5th-tingting-android\.idea\libraries\Gradle__androidx_annotation_annotation_experimental_1_0_0_aar.xml" timestamp="1582456642123" />
+    <file path="C:\Users\chlwj\AndroidStudioProjects\5th-tingting-android\.idea\libraries\Gradle__androidx_appcompat_appcompat_1_1_0_aar.xml" timestamp="1582456642129" />
+    <file path="C:\Users\chlwj\AndroidStudioProjects\5th-tingting-android\.idea\libraries\Gradle__androidx_appcompat_appcompat_resources_1_1_0_aar.xml" timestamp="1582456642139" />
+    <file path="C:\Users\chlwj\AndroidStudioProjects\5th-tingting-android\.idea\libraries\Gradle__androidx_arch_core_core_common_2_1_0_jar.xml" timestamp="1582456642145" />
+    <file path="C:\Users\chlwj\AndroidStudioProjects\5th-tingting-android\.idea\libraries\Gradle__androidx_arch_core_core_runtime_2_0_1_aar.xml" timestamp="1582456642155" />
+    <file path="C:\Users\chlwj\AndroidStudioProjects\5th-tingting-android\.idea\libraries\Gradle__androidx_asynclayoutinflater_asynclayoutinflater_1_0_0_aar.xml" timestamp="1582456642161" />
+    <file path="C:\Users\chlwj\AndroidStudioProjects\5th-tingting-android\.idea\libraries\Gradle__androidx_cardview_cardview_1_0_0_aar.xml" timestamp="1582456642169" />
+    <file path="C:\Users\chlwj\AndroidStudioProjects\5th-tingting-android\.idea\libraries\Gradle__androidx_collection_collection_1_1_0_jar.xml" timestamp="1582456642176" />
+    <file path="C:\Users\chlwj\AndroidStudioProjects\5th-tingting-android\.idea\libraries\Gradle__androidx_constraintlayout_constraintlayout_1_1_3_aar.xml" timestamp="1582456642182" />
+    <file path="C:\Users\chlwj\AndroidStudioProjects\5th-tingting-android\.idea\libraries\Gradle__androidx_constraintlayout_constraintlayout_solver_1_1_3_jar.xml" timestamp="1582456642192" />
+    <file path="C:\Users\chlwj\AndroidStudioProjects\5th-tingting-android\.idea\libraries\Gradle__androidx_coordinatorlayout_coordinatorlayout_1_1_0_aar.xml" timestamp="1582456642202" />
+    <file path="C:\Users\chlwj\AndroidStudioProjects\5th-tingting-android\.idea\libraries\Gradle__androidx_core_core_1_3_0_alpha01_aar.xml" timestamp="1582456642213" />
+    <file path="C:\Users\chlwj\AndroidStudioProjects\5th-tingting-android\.idea\libraries\Gradle__androidx_core_core_ktx_1_3_0_alpha01_aar.xml" timestamp="1582456642222" />
+    <file path="C:\Users\chlwj\AndroidStudioProjects\5th-tingting-android\.idea\libraries\Gradle__androidx_cursoradapter_cursoradapter_1_0_0_aar.xml" timestamp="1582456642233" />
+    <file path="C:\Users\chlwj\AndroidStudioProjects\5th-tingting-android\.idea\libraries\Gradle__androidx_customview_customview_1_0_0_aar.xml" timestamp="1582456642239" />
+    <file path="C:\Users\chlwj\AndroidStudioProjects\5th-tingting-android\.idea\libraries\Gradle__androidx_documentfile_documentfile_1_0_0_aar.xml" timestamp="1582456642247" />
+    <file path="C:\Users\chlwj\AndroidStudioProjects\5th-tingting-android\.idea\libraries\Gradle__androidx_drawerlayout_drawerlayout_1_0_0_aar.xml" timestamp="1582456642253" />
+    <file path="C:\Users\chlwj\AndroidStudioProjects\5th-tingting-android\.idea\libraries\Gradle__androidx_exifinterface_exifinterface_1_0_0_aar.xml" timestamp="1582456642259" />
+    <file path="C:\Users\chlwj\AndroidStudioProjects\5th-tingting-android\.idea\libraries\Gradle__androidx_fragment_fragment_1_1_0_aar.xml" timestamp="1582456642266" />
+    <file path="C:\Users\chlwj\AndroidStudioProjects\5th-tingting-android\.idea\libraries\Gradle__androidx_interpolator_interpolator_1_0_0_aar.xml" timestamp="1582456642273" />
+    <file path="C:\Users\chlwj\AndroidStudioProjects\5th-tingting-android\.idea\libraries\Gradle__androidx_legacy_legacy_support_core_ui_1_0_0_aar.xml" timestamp="1582456642279" />
+    <file path="C:\Users\chlwj\AndroidStudioProjects\5th-tingting-android\.idea\libraries\Gradle__androidx_legacy_legacy_support_core_utils_1_0_0_aar.xml" timestamp="1582456642286" />
+    <file path="C:\Users\chlwj\AndroidStudioProjects\5th-tingting-android\.idea\libraries\Gradle__androidx_legacy_legacy_support_v4_1_0_0_aar.xml" timestamp="1582456642293" />
+    <file path="C:\Users\chlwj\AndroidStudioProjects\5th-tingting-android\.idea\libraries\Gradle__androidx_lifecycle_lifecycle_common_2_1_0_jar.xml" timestamp="1582456642301" />
+    <file path="C:\Users\chlwj\AndroidStudioProjects\5th-tingting-android\.idea\libraries\Gradle__androidx_lifecycle_lifecycle_extensions_2_0_0_aar.xml" timestamp="1582456642309" />
+    <file path="C:\Users\chlwj\AndroidStudioProjects\5th-tingting-android\.idea\libraries\Gradle__androidx_lifecycle_lifecycle_livedata_2_1_0_alpha03_aar.xml" timestamp="1582456642318" />
+    <file path="C:\Users\chlwj\AndroidStudioProjects\5th-tingting-android\.idea\libraries\Gradle__androidx_lifecycle_lifecycle_livedata_core_2_1_0_alpha03_aar.xml" timestamp="1582456642325" />
+    <file path="C:\Users\chlwj\AndroidStudioProjects\5th-tingting-android\.idea\libraries\Gradle__androidx_lifecycle_lifecycle_process_2_0_0_aar.xml" timestamp="1582456642332" />
+    <file path="C:\Users\chlwj\AndroidStudioProjects\5th-tingting-android\.idea\libraries\Gradle__androidx_lifecycle_lifecycle_runtime_2_1_0_aar.xml" timestamp="1582456642338" />
+    <file path="C:\Users\chlwj\AndroidStudioProjects\5th-tingting-android\.idea\libraries\Gradle__androidx_lifecycle_lifecycle_service_2_0_0_aar.xml" timestamp="1582456642347" />
+    <file path="C:\Users\chlwj\AndroidStudioProjects\5th-tingting-android\.idea\libraries\Gradle__androidx_lifecycle_lifecycle_viewmodel_2_1_0_aar.xml" timestamp="1582456642354" />
+    <file path="C:\Users\chlwj\AndroidStudioProjects\5th-tingting-android\.idea\libraries\Gradle__androidx_loader_loader_1_0_0_aar.xml" timestamp="1582456642360" />
+    <file path="C:\Users\chlwj\AndroidStudioProjects\5th-tingting-android\.idea\libraries\Gradle__androidx_localbroadcastmanager_localbroadcastmanager_1_0_0_aar.xml" timestamp="1582456642367" />
+    <file path="C:\Users\chlwj\AndroidStudioProjects\5th-tingting-android\.idea\libraries\Gradle__androidx_media_media_1_0_0_aar.xml" timestamp="1582456642372" />
+    <file path="C:\Users\chlwj\AndroidStudioProjects\5th-tingting-android\.idea\libraries\Gradle__androidx_paging_paging_common_2_1_1_jar.xml" timestamp="1582456642382" />
+    <file path="C:\Users\chlwj\AndroidStudioProjects\5th-tingting-android\.idea\libraries\Gradle__androidx_paging_paging_runtime_2_1_1_aar.xml" timestamp="1582456642388" />
+    <file path="C:\Users\chlwj\AndroidStudioProjects\5th-tingting-android\.idea\libraries\Gradle__androidx_print_print_1_0_0_aar.xml" timestamp="1582456642394" />
+    <file path="C:\Users\chlwj\AndroidStudioProjects\5th-tingting-android\.idea\libraries\Gradle__androidx_recyclerview_recyclerview_1_2_0_alpha01_aar.xml" timestamp="1582456642400" />
+    <file path="C:\Users\chlwj\AndroidStudioProjects\5th-tingting-android\.idea\libraries\Gradle__androidx_room_room_common_2_2_3_jar.xml" timestamp="1582456642407" />
+    <file path="C:\Users\chlwj\AndroidStudioProjects\5th-tingting-android\.idea\libraries\Gradle__androidx_room_room_runtime_2_2_3_aar.xml" timestamp="1582456642413" />
+    <file path="C:\Users\chlwj\AndroidStudioProjects\5th-tingting-android\.idea\libraries\Gradle__androidx_savedstate_savedstate_1_0_0_aar.xml" timestamp="1582456642420" />
+    <file path="C:\Users\chlwj\AndroidStudioProjects\5th-tingting-android\.idea\libraries\Gradle__androidx_slidingpanelayout_slidingpanelayout_1_0_0_aar.xml" timestamp="1582456642426" />
+    <file path="C:\Users\chlwj\AndroidStudioProjects\5th-tingting-android\.idea\libraries\Gradle__androidx_sqlite_sqlite_2_0_1_aar.xml" timestamp="1582456642432" />
+    <file path="C:\Users\chlwj\AndroidStudioProjects\5th-tingting-android\.idea\libraries\Gradle__androidx_sqlite_sqlite_framework_2_0_1_aar.xml" timestamp="1582456642438" />
+    <file path="C:\Users\chlwj\AndroidStudioProjects\5th-tingting-android\.idea\libraries\Gradle__androidx_swiperefreshlayout_swiperefreshlayout_1_1_0_alpha03_aar.xml" timestamp="1582456642444" />
+    <file path="C:\Users\chlwj\AndroidStudioProjects\5th-tingting-android\.idea\libraries\Gradle__androidx_test_core_1_2_0_aar.xml" timestamp="1582456642451" />
+    <file path="C:\Users\chlwj\AndroidStudioProjects\5th-tingting-android\.idea\libraries\Gradle__androidx_test_espresso_espresso_core_3_2_0_aar.xml" timestamp="1582456642456" />
+    <file path="C:\Users\chlwj\AndroidStudioProjects\5th-tingting-android\.idea\libraries\Gradle__androidx_test_espresso_espresso_idling_resource_3_2_0_aar.xml" timestamp="1582456642462" />
+    <file path="C:\Users\chlwj\AndroidStudioProjects\5th-tingting-android\.idea\libraries\Gradle__androidx_test_ext_junit_1_1_1_aar.xml" timestamp="1582456642468" />
+    <file path="C:\Users\chlwj\AndroidStudioProjects\5th-tingting-android\.idea\libraries\Gradle__androidx_test_monitor_1_2_0_aar.xml" timestamp="1582456642474" />
+    <file path="C:\Users\chlwj\AndroidStudioProjects\5th-tingting-android\.idea\libraries\Gradle__androidx_test_runner_1_2_0_aar.xml" timestamp="1582456642479" />
+    <file path="C:\Users\chlwj\AndroidStudioProjects\5th-tingting-android\.idea\libraries\Gradle__androidx_transition_transition_1_2_0_aar.xml" timestamp="1582456642485" />
+    <file path="C:\Users\chlwj\AndroidStudioProjects\5th-tingting-android\.idea\libraries\Gradle__androidx_vectordrawable_vectordrawable_1_1_0_aar.xml" timestamp="1582456642492" />
+    <file path="C:\Users\chlwj\AndroidStudioProjects\5th-tingting-android\.idea\libraries\Gradle__androidx_vectordrawable_vectordrawable_animated_1_1_0_aar.xml" timestamp="1582456642498" />
+    <file path="C:\Users\chlwj\AndroidStudioProjects\5th-tingting-android\.idea\libraries\Gradle__androidx_versionedparcelable_versionedparcelable_1_1_0_aar.xml" timestamp="1582456642504" />
+    <file path="C:\Users\chlwj\AndroidStudioProjects\5th-tingting-android\.idea\libraries\Gradle__androidx_viewpager2_viewpager2_1_0_0_aar.xml" timestamp="1582456642511" />
+    <file path="C:\Users\chlwj\AndroidStudioProjects\5th-tingting-android\.idea\libraries\Gradle__androidx_viewpager_viewpager_1_0_0_aar.xml" timestamp="1582456642518" />
+    <file path="C:\Users\chlwj\AndroidStudioProjects\5th-tingting-android\.idea\libraries\Gradle__com_github_Jay_Goo_RangeSeekBar_3_0_0_aar.xml" timestamp="1582456642524" />
+    <file path="C:\Users\chlwj\AndroidStudioProjects\5th-tingting-android\.idea\libraries\Gradle__com_github_anonymous_ME_TagsEditText_0_5_0_aar.xml" timestamp="1582456642530" />
+    <file path="C:\Users\chlwj\AndroidStudioProjects\5th-tingting-android\.idea\libraries\Gradle__com_github_bumptech_glide_annotations_4_11_0_jar.xml" timestamp="1582456642536" />
+    <file path="C:\Users\chlwj\AndroidStudioProjects\5th-tingting-android\.idea\libraries\Gradle__com_github_bumptech_glide_disklrucache_4_11_0_jar.xml" timestamp="1582456642555" />
+    <file path="C:\Users\chlwj\AndroidStudioProjects\5th-tingting-android\.idea\libraries\Gradle__com_github_bumptech_glide_gifdecoder_4_11_0_aar.xml" timestamp="1582456642561" />
+    <file path="C:\Users\chlwj\AndroidStudioProjects\5th-tingting-android\.idea\libraries\Gradle__com_github_bumptech_glide_glide_4_11_0_aar.xml" timestamp="1582456642567" />
+    <file path="C:\Users\chlwj\AndroidStudioProjects\5th-tingting-android\.idea\libraries\Gradle__com_github_niwattep_material_slide_date_picker_v2_0_0_aar.xml" timestamp="1582456642577" />
+    <file path="C:\Users\chlwj\AndroidStudioProjects\5th-tingting-android\.idea\libraries\Gradle__com_github_ronaldsmartin_Material_ViewPagerIndicator_1_0_4_aar.xml" timestamp="1582456642583" />
+    <file path="C:\Users\chlwj\AndroidStudioProjects\5th-tingting-android\.idea\libraries\Gradle__com_github_varunest_sparkbutton_1_0_6_aar.xml" timestamp="1582456642589" />
+    <file path="C:\Users\chlwj\AndroidStudioProjects\5th-tingting-android\.idea\libraries\Gradle__com_google_android_flexbox_1_0_0_aar.xml" timestamp="1582456642594" />
+    <file path="C:\Users\chlwj\AndroidStudioProjects\5th-tingting-android\.idea\libraries\Gradle__com_google_android_gms_play_services_ads_identifier_17_0_0_aar.xml" timestamp="1582456642600" />
+    <file path="C:\Users\chlwj\AndroidStudioProjects\5th-tingting-android\.idea\libraries\Gradle__com_google_android_gms_play_services_base_17_0_0_aar.xml" timestamp="1582456642606" />
+    <file path="C:\Users\chlwj\AndroidStudioProjects\5th-tingting-android\.idea\libraries\Gradle__com_google_android_gms_play_services_basement_17_0_0_aar.xml" timestamp="1582456642611" />
+    <file path="C:\Users\chlwj\AndroidStudioProjects\5th-tingting-android\.idea\libraries\Gradle__com_google_android_gms_play_services_measurement_17_2_2_aar.xml" timestamp="1582456642621" />
+    <file path="C:\Users\chlwj\AndroidStudioProjects\5th-tingting-android\.idea\libraries\Gradle__com_google_android_gms_play_services_measurement_api_17_2_2_aar.xml" timestamp="1582456642627" />
+    <file path="C:\Users\chlwj\AndroidStudioProjects\5th-tingting-android\.idea\libraries\Gradle__com_google_android_gms_play_services_measurement_base_17_2_2_aar.xml" timestamp="1582456642633" />
+    <file path="C:\Users\chlwj\AndroidStudioProjects\5th-tingting-android\.idea\libraries\Gradle__com_google_android_gms_play_services_measurement_impl_17_2_2_aar.xml" timestamp="1582456642639" />
+    <file path="C:\Users\chlwj\AndroidStudioProjects\5th-tingting-android\.idea\libraries\Gradle__com_google_android_gms_play_services_measurement_sdk_17_2_2_aar.xml" timestamp="1582456642648" />
+    <file path="C:\Users\chlwj\AndroidStudioProjects\5th-tingting-android\.idea\libraries\Gradle__com_google_android_gms_play_services_measurement_sdk_api_17_2_2_aar.xml" timestamp="1582456642653" />
+    <file path="C:\Users\chlwj\AndroidStudioProjects\5th-tingting-android\.idea\libraries\Gradle__com_google_android_gms_play_services_stats_17_0_0_aar.xml" timestamp="1582456642660" />
+    <file path="C:\Users\chlwj\AndroidStudioProjects\5th-tingting-android\.idea\libraries\Gradle__com_google_android_gms_play_services_tasks_17_0_0_aar.xml" timestamp="1582456642667" />
+    <file path="C:\Users\chlwj\AndroidStudioProjects\5th-tingting-android\.idea\libraries\Gradle__com_google_android_material_material_1_2_0_alpha04_aar.xml" timestamp="1582456642673" />
+    <file path="C:\Users\chlwj\AndroidStudioProjects\5th-tingting-android\.idea\libraries\Gradle__com_google_auto_value_auto_value_annotations_1_6_5_jar.xml" timestamp="1582456642679" />
+    <file path="C:\Users\chlwj\AndroidStudioProjects\5th-tingting-android\.idea\libraries\Gradle__com_google_code_findbugs_jsr305_2_0_1_jar.xml" timestamp="1582456642685" />
+    <file path="C:\Users\chlwj\AndroidStudioProjects\5th-tingting-android\.idea\libraries\Gradle__com_google_code_gson_gson_2_8_6_jar.xml" timestamp="1582456642699" />
+    <file path="C:\Users\chlwj\AndroidStudioProjects\5th-tingting-android\.idea\libraries\Gradle__com_google_firebase_firebase_analytics_17_2_2_aar.xml" timestamp="1582456642706" />
+    <file path="C:\Users\chlwj\AndroidStudioProjects\5th-tingting-android\.idea\libraries\Gradle__com_google_firebase_firebase_common_19_3_0_aar.xml" timestamp="1582456642712" />
+    <file path="C:\Users\chlwj\AndroidStudioProjects\5th-tingting-android\.idea\libraries\Gradle__com_google_firebase_firebase_components_16_0_0_aar.xml" timestamp="1582456642718" />
+    <file path="C:\Users\chlwj\AndroidStudioProjects\5th-tingting-android\.idea\libraries\Gradle__com_google_firebase_firebase_core_17_2_2_aar.xml" timestamp="1582456642724" />
+    <file path="C:\Users\chlwj\AndroidStudioProjects\5th-tingting-android\.idea\libraries\Gradle__com_google_firebase_firebase_crashlytics_17_0_0_beta01_aar.xml" timestamp="1582456642730" />
+    <file path="C:\Users\chlwj\AndroidStudioProjects\5th-tingting-android\.idea\libraries\Gradle__com_google_firebase_firebase_iid_20_0_2_aar.xml" timestamp="1582456642736" />
+    <file path="C:\Users\chlwj\AndroidStudioProjects\5th-tingting-android\.idea\libraries\Gradle__com_google_firebase_firebase_iid_interop_17_0_0_aar.xml" timestamp="1582456642742" />
+    <file path="C:\Users\chlwj\AndroidStudioProjects\5th-tingting-android\.idea\libraries\Gradle__com_google_firebase_firebase_measurement_connector_18_0_0_aar.xml" timestamp="1582456642754" />
+    <file path="C:\Users\chlwj\AndroidStudioProjects\5th-tingting-android\.idea\libraries\Gradle__com_jakewharton_rxbinding2_rxbinding_2_1_1_aar.xml" timestamp="1582456642769" />
+    <file path="C:\Users\chlwj\AndroidStudioProjects\5th-tingting-android\.idea\libraries\Gradle__com_jakewharton_rxbinding2_rxbinding_kotlin_2_1_1_aar.xml" timestamp="1582456642775" />
+    <file path="C:\Users\chlwj\AndroidStudioProjects\5th-tingting-android\.idea\libraries\Gradle__com_kakao_sdk_auth_1_25_0_aar.xml" timestamp="1582456642787" />
+    <file path="C:\Users\chlwj\AndroidStudioProjects\5th-tingting-android\.idea\libraries\Gradle__com_kakao_sdk_common_1_25_0_aar.xml" timestamp="1582456642803" />
+    <file path="C:\Users\chlwj\AndroidStudioProjects\5th-tingting-android\.idea\libraries\Gradle__com_kakao_sdk_network_1_25_0_aar.xml" timestamp="1582456642810" />
+    <file path="C:\Users\chlwj\AndroidStudioProjects\5th-tingting-android\.idea\libraries\Gradle__com_kakao_sdk_usermgmt_1_25_0_aar.xml" timestamp="1582456642816" />
+    <file path="C:\Users\chlwj\AndroidStudioProjects\5th-tingting-android\.idea\libraries\Gradle__com_kakao_sdk_util_1_25_0_aar.xml" timestamp="1582456642822" />
+    <file path="C:\Users\chlwj\AndroidStudioProjects\5th-tingting-android\.idea\libraries\Gradle__com_squareup_javawriter_2_1_1_jar.xml" timestamp="1582456642828" />
+    <file path="C:\Users\chlwj\AndroidStudioProjects\5th-tingting-android\.idea\libraries\Gradle__com_squareup_okhttp3_logging_interceptor_3_10_0_jar.xml" timestamp="1582456642835" />
+    <file path="C:\Users\chlwj\AndroidStudioProjects\5th-tingting-android\.idea\libraries\Gradle__com_squareup_okhttp3_okhttp_3_12_1_jar.xml" timestamp="1582456642840" />
+    <file path="C:\Users\chlwj\AndroidStudioProjects\5th-tingting-android\.idea\libraries\Gradle__com_squareup_okio_okio_1_15_0_jar.xml" timestamp="1582456642849" />
+    <file path="C:\Users\chlwj\AndroidStudioProjects\5th-tingting-android\.idea\libraries\Gradle__com_squareup_retrofit2_converter_gson_2_3_0_jar.xml" timestamp="1582456642854" />
+    <file path="C:\Users\chlwj\AndroidStudioProjects\5th-tingting-android\.idea\libraries\Gradle__com_squareup_retrofit2_retrofit_2_3_0_jar.xml" timestamp="1582456642860" />
+    <file path="C:\Users\chlwj\AndroidStudioProjects\5th-tingting-android\.idea\libraries\Gradle__com_theartofdev_edmodo_android_image_cropper_2_6_0_aar.xml" timestamp="1582456642865" />
+    <file path="C:\Users\chlwj\AndroidStudioProjects\5th-tingting-android\.idea\libraries\Gradle__gun0912_ted_tedpermission_2_1_0_aar.xml" timestamp="1582456642870" />
+    <file path="C:\Users\chlwj\AndroidStudioProjects\5th-tingting-android\.idea\libraries\Gradle__info_hoang8f_android_segmented_1_0_6_aar.xml" timestamp="1582456642875" />
+    <file path="C:\Users\chlwj\AndroidStudioProjects\5th-tingting-android\.idea\libraries\Gradle__io_reactivex_rxjava2_rxandroid_2_1_0_aar.xml" timestamp="1582456642881" />
+    <file path="C:\Users\chlwj\AndroidStudioProjects\5th-tingting-android\.idea\libraries\Gradle__io_reactivex_rxjava2_rxjava_2_2_2_jar.xml" timestamp="1582456642888" />
+    <file path="C:\Users\chlwj\AndroidStudioProjects\5th-tingting-android\.idea\libraries\Gradle__io_reactivex_rxjava2_rxkotlin_2_2_0_jar.xml" timestamp="1582456642895" />
+    <file path="C:\Users\chlwj\AndroidStudioProjects\5th-tingting-android\.idea\libraries\Gradle__javax_inject_javax_inject_1_jar.xml" timestamp="1582456642903" />
+    <file path="C:\Users\chlwj\AndroidStudioProjects\5th-tingting-android\.idea\libraries\Gradle__junit_junit_4_12_jar.xml" timestamp="1582456642909" />
+    <file path="C:\Users\chlwj\AndroidStudioProjects\5th-tingting-android\.idea\libraries\Gradle__junit_junit_4_13_jar.xml" timestamp="1582456642915" />
+    <file path="C:\Users\chlwj\AndroidStudioProjects\5th-tingting-android\.idea\libraries\Gradle__me_relex_circleindicator_1_3_2_aar.xml" timestamp="1582456642921" />
+    <file path="C:\Users\chlwj\AndroidStudioProjects\5th-tingting-android\.idea\libraries\Gradle__net_sf_kxml_kxml2_2_3_0_jar.xml" timestamp="1582456642927" />
+    <file path="C:\Users\chlwj\AndroidStudioProjects\5th-tingting-android\.idea\libraries\Gradle__org_hamcrest_hamcrest_core_1_3_jar.xml" timestamp="1582456642933" />
+    <file path="C:\Users\chlwj\AndroidStudioProjects\5th-tingting-android\.idea\libraries\Gradle__org_hamcrest_hamcrest_integration_1_3_jar.xml" timestamp="1582456642939" />
+    <file path="C:\Users\chlwj\AndroidStudioProjects\5th-tingting-android\.idea\libraries\Gradle__org_hamcrest_hamcrest_library_1_3_jar.xml" timestamp="1582456642944" />
+    <file path="C:\Users\chlwj\AndroidStudioProjects\5th-tingting-android\.idea\libraries\Gradle__org_jetbrains_annotations_13_0_jar.xml" timestamp="1582456642950" />
+    <file path="C:\Users\chlwj\AndroidStudioProjects\5th-tingting-android\.idea\libraries\Gradle__org_jetbrains_kotlin_kotlin_android_extensions_runtime_1_3_61_jar.xml" timestamp="1582456642958" />
+    <file path="C:\Users\chlwj\AndroidStudioProjects\5th-tingting-android\.idea\libraries\Gradle__org_jetbrains_kotlin_kotlin_stdlib_1_3_61_jar.xml" timestamp="1582456642964" />
+    <file path="C:\Users\chlwj\AndroidStudioProjects\5th-tingting-android\.idea\libraries\Gradle__org_jetbrains_kotlin_kotlin_stdlib_common_1_3_61_jar.xml" timestamp="1582456642970" />
+    <file path="C:\Users\chlwj\AndroidStudioProjects\5th-tingting-android\.idea\libraries\Gradle__org_jetbrains_kotlin_kotlin_stdlib_jdk7_1_3_61_jar.xml" timestamp="1582456642976" />
+    <file path="C:\Users\chlwj\AndroidStudioProjects\5th-tingting-android\.idea\libraries\Gradle__org_jetbrains_kotlinx_kotlinx_coroutines_android_1_3_3_jar.xml" timestamp="1582456642982" />
+    <file path="C:\Users\chlwj\AndroidStudioProjects\5th-tingting-android\.idea\libraries\Gradle__org_jetbrains_kotlinx_kotlinx_coroutines_core_1_3_3_jar.xml" timestamp="1582456642988" />
+    <file path="C:\Users\chlwj\AndroidStudioProjects\5th-tingting-android\.idea\libraries\Gradle__org_reactivestreams_reactive_streams_1_0_2_jar.xml" timestamp="1582456642995" />
+    <file path="C:\Users\chlwj\AndroidStudioProjects\5th-tingting-android\.idea\misc.xml" timestamp="1582199801522" />
+    <file path="C:\Users\chlwj\AndroidStudioProjects\5th-tingting-android\.idea\modules.xml" timestamp="1582199801528" />
+    <file path="C:\Users\chlwj\AndroidStudioProjects\5th-tingting-android\.idea\runConfigurations.xml" timestamp="1582199772478" />
+    <file path="C:\Users\chlwj\AndroidStudioProjects\5th-tingting-android\.idea\vcs.xml" timestamp="1582199772454" />
+    <file path="C:\Users\chlwj\AndroidStudioProjects\5th-tingting-android\.idea\workspace.xml" timestamp="1582560454936" />
+    <file path="C:\Users\chlwj\AndroidStudioProjects\5th-tingting-android\app\app.iml" timestamp="1582456292053" />
+    <file path="C:\Users\chlwj\AndroidStudioProjects\5th-tingting-android\tintint_JW.iml" timestamp="1582199801496" />
+  </project-files>
+</conversion>
+

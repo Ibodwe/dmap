@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<conversion>
+  <applied-converters>
+    <converter id="android-module-to-java-module" />
+    <converter id="android-native-run-configurations" />
+    <converter id="android-proguard-options" />
+    <converter id="android-sdk-library" />
+    <converter id="groovy-modules-to-facets" />
+    <converter id="groovy-script-run-configurations" />
+    <converter id="junit-to-android-junit-configurations" />
+    <converter id="kotlin-non-jvm-source-roots" />
+    <converter id="remove-java-aware-configurations" />
+  </applied-converters>
+  <project-files>
+    <file path="C:\Users\chlwj\AndroidStudioProjects\Android-AWS-S3\.idea\codeStyles\Project.xml" timestamp="1581745429543" />
+    <file path="C:\Users\chlwj\AndroidStudioProjects\Android-AWS-S3\.idea\compiler.xml" timestamp="1581745401566" />
+    <file path="C:\Users\chlwj\AndroidStudioProjects\Android-AWS-S3\.idea\copyright\profiles_settings.xml" timestamp="1581745401568" />
+    <file path="C:\Users\chlwj\AndroidStudioProjects\Android-AWS-S3\.idea\gradle.xml" timestamp="1581745401569" />
+    <file path="C:\Users\chlwj\AndroidStudioProjects\Android-AWS-S3\.idea\misc.xml" timestamp="1581745401570" />
+    <file path="C:\Users\chlwj\AndroidStudioProjects\Android-AWS-S3\.idea\modules.xml" timestamp="1581745401571" />
+    <file path="C:\Users\chlwj\AndroidStudioProjects\Android-AWS-S3\.idea\runConfigurations.xml" timestamp="1581745401571" />
+    <file path="C:\Users\chlwj\AndroidStudioProjects\Android-AWS-S3\.idea\vcs.xml" timestamp="1581745429525" />
+    <file path="C:\Users\chlwj\AndroidStudioProjects\Android-AWS-S3\.idea\workspace.xml" timestamp="1581745559955" />
+    <file path="C:\Users\chlwj\AndroidStudioProjects\Android-AWS-S3\AmazonS3-Example.iml" timestamp="1581745401573" />
+    <file path="C:\Users\chlwj\AndroidStudioProjects\Android-AWS-S3\app\app.iml" timestamp="1581745429506" />
+  </project-files>
+</conversion>
+

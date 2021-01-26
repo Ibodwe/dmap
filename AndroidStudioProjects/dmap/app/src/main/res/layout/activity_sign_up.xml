@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/white"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Signup.SignUpActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/nanumsquare_ac_eb"
+        android:text="회원 가입"
+        android:textSize="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        android:layout_marginLeft="50dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.1" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:fontFamily="@font/nanumsquare_ac_eb"
+        android:text="닉네임"
+        android:textSize="20dp"
+        app:layout_constraintStart_toStartOf="@+id/textView"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/nickNameETLayer"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:paddingRight="5dp"
+        android:textSize="13dp"
+        app:hintEnabled="false"
+        app:hintAnimationEnabled="false"
+        app:layout_constraintLeft_toLeftOf="@+id/textView2"
+        app:layout_constraintRight_toLeftOf="@+id/idCheckBtn"
+        app:layout_constraintTop_toBottomOf="@+id/textView2">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/nickNameET"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:paddingRight="5dp"
+            android:autofillHints=""
+            android:hint="@string/signup_activity_nickname_hint"
+            android:textSize="13dp"
+            app:layout_constraintLeft_toLeftOf="@+id/textView2"
+            app:layout_constraintRight_toLeftOf="@+id/idCheckBtn"
+            app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+
+    <TextView
+        app:layout_constraintRight_toRightOf="parent"
+        android:id="@+id/idCheckBtn"
+        app:layout_constraintLeft_toRightOf="@+id/nickNameETLayer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="12dp"
+        android:fontFamily="@font/nanumsquare_ac_l"
+        android:text="중복확인"
+        android:layout_marginEnd="50dp"
+        android:layout_marginLeft="5dp"
+        app:layout_constraintBottom_toBottomOf="@+id/nickNameETLayer"
+        app:layout_constraintTop_toTopOf="@+id/nickNameETLayer" />
+
+    <TextView
+        android:layout_marginTop="30dp"
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/nanumsquare_ac_eb"
+        android:text="성별"
+        android:textSize="20dp"
+        app:layout_constraintStart_toStartOf="@+id/textView"
+        app:layout_constraintTop_toBottomOf="@+id/nickNameETLayer" />
+
+    <Button
+        android:background="@drawable/signup_gender_btn"
+        android:layout_marginTop="10dp"
+        android:id="@+id/genderMaleBtn"
+        android:layout_width="0dp"
+        android:stateListAnimator="@null"
+        android:textColor="@color/default_to_ready_text"
+        android:layout_height="wrap_content"
+        android:text="남성"
+        android:layout_marginRight="15dp"
+        android:fontFamily="@font/nanumsquare_ac_eb"
+        app:layout_constraintLeft_toLeftOf="@+id/textView3"
+        app:layout_constraintRight_toLeftOf="@+id/genderFemaleBtn"
+        app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+    <Button
+        android:background="@drawable/signup_gender_btn"
+        android:id="@+id/genderFemaleBtn"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:textColor="@color/default_to_ready_text"
+        android:text="여성"
+        android:stateListAnimator="@null"
+        android:fontFamily="@font/nanumsquare_ac_eb"
+        android:layout_marginRight="50dp"
+        app:layout_constraintLeft_toRightOf="@+id/genderMaleBtn"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/genderMaleBtn"
+        android:layout_marginEnd="50dp" />
+
+    <Button
+        android:id="@+id/nextBtn"
+        android:text="다음"
+        android:layout_marginTop="20dp"
+        android:layout_width="0dp"
+        android:fontFamily="@font/nanumsquare_ac_eb"
+        android:background="@drawable/next_btn_bg"
+        android:layout_height="wrap_content"
+        android:stateListAnimator="@null"
+        android:enabled="false"
+        android:textColor="@color/default_to_ready_text"
+        app:layout_constraintEnd_toEndOf="@+id/genderFemaleBtn"
+        app:layout_constraintStart_toStartOf="@+id/genderMaleBtn"
+        app:layout_constraintTop_toBottomOf="@+id/genderMaleBtn" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
