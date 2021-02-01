@@ -15,7 +15,9 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         android:usesCleartextTraffic="true">
-        <activity android:name=".WriteReview.WritreReviewActivity"></activity>
+        <activity android:name=".Map.AddMap.AddMapActivity"></activity>
+        <activity android:name=".Map.temp" />
+        <activity android:name=".WriteReview.WritreReviewActivity" />
         <activity android:name=".Signup.SignUpActivity" />
         <activity android:name=".LoginActivity">
             <intent-filter>

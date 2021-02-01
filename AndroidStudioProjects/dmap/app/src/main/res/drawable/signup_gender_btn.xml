@@ -10,7 +10,7 @@
 
     <item android:state_selected="true">
         <shape android:shape="rectangle">
-            <solid android:color="@color/white"/>
+            <solid android:color="@color/login_activity_bg"/>
             <stroke android:color="@color/login_activity_bg" android:width="0.5dp"/>
             <corners android:radius="5dp"/>
         </shape>
