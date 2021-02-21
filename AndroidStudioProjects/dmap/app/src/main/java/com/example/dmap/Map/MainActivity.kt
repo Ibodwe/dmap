@@ -56,6 +56,7 @@ class MainActivity : AppCompatActivity(), MapView.POIItemEventListener, View.OnC
 
         drawer = view.MenuDrawer
 
+
     }
 
 
@@ -98,6 +99,7 @@ class MainActivity : AppCompatActivity(), MapView.POIItemEventListener, View.OnC
         marker.markerType = MapPOIItem.MarkerType.BluePin;
         marker.selectedMarkerType = MapPOIItem.MarkerType.RedPin;
         mapView.addPOIItem(marker)
+
 
     }
 
@@ -151,6 +153,7 @@ class MainActivity : AppCompatActivity(), MapView.POIItemEventListener, View.OnC
                 intent.putExtra("currentLongitude"  , longitude)
                 intent.putExtra("currentLatitude" , latitude)
                 startActivity(intent)
+
             }
 
         }

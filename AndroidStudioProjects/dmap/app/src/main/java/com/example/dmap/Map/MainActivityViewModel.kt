@@ -12,9 +12,8 @@ class MainActivityViewModel (val repository: KakaoMapRepository ) : ViewModel() 
         viewModelScope.launch {
             repository.kakaoRemoteData.searchRoadByFoot(toiletName, toilet_latitude, toilet_longitude)
         }
-
-
-
     }
+
+
 
 }

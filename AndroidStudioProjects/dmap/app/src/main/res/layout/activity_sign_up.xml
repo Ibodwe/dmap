@@ -78,6 +78,8 @@
         app:layout_constraintBottom_toBottomOf="@+id/nickNameETLayer"
         app:layout_constraintTop_toTopOf="@+id/nickNameETLayer" />
 
+
+
     <TextView
         android:layout_marginTop="30dp"
         android:id="@+id/textView3"

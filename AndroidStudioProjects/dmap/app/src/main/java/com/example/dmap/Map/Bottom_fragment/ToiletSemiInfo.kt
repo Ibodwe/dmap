@@ -6,6 +6,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.LinearLayoutManager
+import androidx.recyclerview.widget.RecyclerView
 import com.example.dmap.Data.source.KakaoMapRepository
 import com.example.dmap.Map.MainActivityViewModel
 import com.example.dmap.Map.indivisual_review.IndividualItem
@@ -18,6 +19,7 @@ import kotlinx.android.synthetic.main.toilet_bottom_info.view.*
 class ToiletSemiInfo : BottomSheetDialogFragment() {
 
 
+
     val viewModel : MainActivityViewModel by lazy {
         MainActivityViewModel(KakaoMapRepository())
     }
@@ -26,6 +28,9 @@ class ToiletSemiInfo : BottomSheetDialogFragment() {
         IndividualReviewAdapter()
     }
 
+    val toiletSemiInfoViewModel : ToiletSemiInfoViewModel by lazy{
+        ToiletSemiInfoViewModel(individualReviewAdapter)
+    }
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
@@ -51,8 +56,26 @@ class ToiletSemiInfo : BottomSheetDialogFragment() {
 
 
         view.IndividualRecyclerView.layoutManager = LinearLayoutManager(requireContext(), LinearLayoutManager.VERTICAL , false)
+    }
 
 
+    private val recyclerViewOnScrollListener = object : RecyclerView.OnScrollListener(){
+        override fun onScrollStateChanged(recyclerView: RecyclerView, newState: Int) {
+            super.onScrollStateChanged(recyclerView, newState)
+        }
+
+        override fun onScrolled(recyclerView: RecyclerView, dx: Int, dy: Int) {
+            super.onScrolled(recyclerView, dx, dy)
+            val visibleItem = recyclerView.childCount
+            val totalItemCount = individualReviewAdapter.itemCount
+            val firstVisibleItem = (recyclerView.layoutManager as LinearLayoutManager).findFirstVisibleItemPosition()
+
+            if( (firstVisibleItem + visibleItem) >= totalItemCount-3){
+                //load More Data
+
+            }
+
+        }
     }
 
     override fun onCreate(savedInstanceState: Bundle?) {

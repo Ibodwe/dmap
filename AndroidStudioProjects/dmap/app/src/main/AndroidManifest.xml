@@ -16,15 +16,17 @@
         android:theme="@style/AppTheme"
         android:usesCleartextTraffic="true">
         <activity android:name=".Map.AddMap.AddMapActivity"></activity>
-        <activity android:name=".Map.temp" />
         <activity android:name=".WriteReview.WritreReviewActivity" />
         <activity android:name=".Signup.SignUpActivity" />
-        <activity android:name=".LoginActivity">
+        <activity android:name=".Login.LoginActivity">
             <intent-filter>
                 <action android:name="android.intent.action.VIEW" />
 
                 <category android:name="android.intent.category.DEFAULT" />
                 <category android:name="android.intent.category.BROWSABLE" />
+
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
 
                 <data
                     android:host="oauth"
@@ -32,11 +34,10 @@
             </intent-filter>
         </activity>
         <activity android:name=".Map.MainActivity">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
+<!--            <intent-filter>-->
+<!--                <action android:name="android.intent.action.MAIN" />-->
+<!--                <category android:name="android.intent.category.LAUNCHER" />-->
+<!--            </intent-filter>-->
         </activity>
 
         <meta-data

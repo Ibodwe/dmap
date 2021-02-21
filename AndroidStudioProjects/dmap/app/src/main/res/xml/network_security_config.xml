@@ -3,5 +3,7 @@
     <domain-config cleartextTrafficPermitted="true">
         <domain includeSubdomains="true">maps.daum-img.net</domain>
         <domain includeSubdomains="true">map.kakao.com</domain>
+        <domain includeSubdomains="true">49.247.0.135</domain>
+
     </domain-config>
 </network-security-config>
