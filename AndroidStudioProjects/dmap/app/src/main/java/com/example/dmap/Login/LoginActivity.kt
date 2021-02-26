@@ -11,6 +11,7 @@ import com.example.dmap.Signup.SignUpActivity
 import com.example.dmap.databinding.ActivityLoginBinding
 import com.kakao.sdk.auth.LoginClient
 import com.kakao.sdk.auth.rx
+import com.kakao.sdk.common.util.Utility
 import io.reactivex.android.schedulers.AndroidSchedulers
 import java.lang.Exception
 
@@ -27,6 +28,8 @@ class LoginActivity : AppCompatActivity() , View.OnClickListener {
         binding = ActivityLoginBinding.inflate(layoutInflater)
         val view = binding.root
         setContentView(view)
+
+
 
         binding.loginKakao.setOnClickListener(this)
 

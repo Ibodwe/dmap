@@ -1,4 +1,4 @@
-package com.example.dmap.Map.Bottom_fragment
+package com.example.dmap.ToiletReviewDialog
 
 import android.app.Dialog
 import android.os.Bundle
@@ -7,7 +7,7 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
-import com.example.dmap.Data.source.KakaoMapRepository
+import com.example.dmap.Map.CustomLocationData.DmapLocationData
 import com.example.dmap.Map.MainActivityViewModel
 import com.example.dmap.Map.indivisual_review.IndividualItem
 import com.example.dmap.Map.indivisual_review.IndividualReviewAdapter
@@ -16,12 +16,12 @@ import com.google.android.material.bottomsheet.BottomSheetBehavior
 import com.google.android.material.bottomsheet.BottomSheetDialogFragment
 import kotlinx.android.synthetic.main.toilet_bottom_info.view.*
 
-class ToiletSemiInfo : BottomSheetDialogFragment() {
+class ToiletSemiInfo(val data : DmapLocationData) : BottomSheetDialogFragment() {
 
 
 
     val viewModel : MainActivityViewModel by lazy {
-        MainActivityViewModel(KakaoMapRepository())
+        MainActivityViewModel()
     }
 
     val individualReviewAdapter by lazy {
@@ -36,8 +36,10 @@ class ToiletSemiInfo : BottomSheetDialogFragment() {
         super.onViewCreated(view, savedInstanceState)
 
         view.search_road.setOnClickListener {
-           // viewModel.getRoadDataByFoot("toilet_1","37.5777969" ,"127.0820231")
+
         }
+
+        setViewData(view)
 
         view.ratingBar.rating = 3.0f
 
@@ -47,12 +49,12 @@ class ToiletSemiInfo : BottomSheetDialogFragment() {
 
         view.IndividualRecyclerView.adapter = individualReviewAdapter
 
-        individualReviewAdapter.addItem(IndividualItem())
-        individualReviewAdapter.addItem(IndividualItem())
-        individualReviewAdapter.addItem(IndividualItem())
-        individualReviewAdapter.addItem(IndividualItem())
-        individualReviewAdapter.addItem(IndividualItem())
 
+        individualReviewAdapter.addItem(IndividualItem())
+        individualReviewAdapter.addItem(IndividualItem())
+        individualReviewAdapter.addItem(IndividualItem())
+        individualReviewAdapter.addItem(IndividualItem())
+        individualReviewAdapter.addItem(IndividualItem())
 
 
         view.IndividualRecyclerView.layoutManager = LinearLayoutManager(requireContext(), LinearLayoutManager.VERTICAL , false)
@@ -124,6 +126,16 @@ class ToiletSemiInfo : BottomSheetDialogFragment() {
 
         override fun onSlide(bottomSheet: View, slideOffset: Float) {
         }
+    }
+
+    fun setViewData(view : View){
+        view.toilet_name.setText(data.data.name)
+        val addressData = data.data
+        val address = "${addressData.city_name} ${addressData.goo_name} ${addressData.street_num_main} ${addressData.street_num_sub}"
+
+        view.toilet_address.setText(address)
+
+
     }
 
 }

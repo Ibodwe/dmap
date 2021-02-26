@@ -82,7 +82,7 @@ class AddMapActivity : AppCompatActivity(), MapView.MapViewEventListener,
 
         if (marker != null) { mapView.removePOIItem(marker) }
 
-        marker = DmapLocationData("test22");
+        //marker = DmapLocationData("test22");
 
         marker?.apply {
             itemName = "새로 등록할 화장실"

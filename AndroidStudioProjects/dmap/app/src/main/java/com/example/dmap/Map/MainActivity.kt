@@ -11,11 +11,12 @@ import android.view.View
 import android.view.Window
 import androidx.appcompat.app.AppCompatActivity
 import androidx.drawerlayout.widget.DrawerLayout
-import com.example.dmap.Data.source.KakaoMapRepository
+import androidx.lifecycle.Observer
 import com.example.dmap.Map.AddMap.AddMapActivity
-import com.example.dmap.Map.Bottom_fragment.ToiletSemiInfo
+import com.example.dmap.ToiletReviewDialog.ToiletSemiInfo
 import com.example.dmap.Map.CustomLocationData.DmapLocationData
 import com.example.dmap.Map.Gps.GpsTracker
+import com.example.dmap.Map.network.ToiletData
 import com.example.dmap.R
 import com.example.dmap.databinding.ActivityMainBinding
 import kotlinx.android.synthetic.main.activity_main.view.*
@@ -38,7 +39,7 @@ class MainActivity : AppCompatActivity(), MapView.POIItemEventListener, View.OnC
     lateinit var mDialog: Dialog
 
     val gpsTracker: GpsTracker by lazy { GpsTracker(this) }
-    val viewModel: MainActivityViewModel by lazy { MainActivityViewModel(KakaoMapRepository()) }
+    val viewModel: MainActivityViewModel by lazy { MainActivityViewModel() }
     lateinit var mapView: MapView
 
     lateinit var drawer: DrawerLayout
@@ -48,6 +49,7 @@ class MainActivity : AppCompatActivity(), MapView.POIItemEventListener, View.OnC
         binding = ActivityMainBinding.inflate(layoutInflater)
         val view = binding.root
 
+
         setContentView(view)
         showLoadingDialog()
 
@@ -56,6 +58,7 @@ class MainActivity : AppCompatActivity(), MapView.POIItemEventListener, View.OnC
 
         drawer = view.MenuDrawer
 
+        getReviewData()
 
     }
 
@@ -89,13 +92,12 @@ class MainActivity : AppCompatActivity(), MapView.POIItemEventListener, View.OnC
 
     }
 
-    fun addMarker() {
+    fun addMarker(data: ToiletData) {
 
-        val marker = DmapLocationData("test22");
-
-        marker.itemName = "첫번쨰 화장실"
+        val marker = DmapLocationData(data);
+        marker.itemName = data.name
         marker.tag = 0
-        marker.mapPoint = mapPointWithGeoCoord(latitude, longitude)
+        marker.mapPoint = mapPointWithGeoCoord(data.latitude, data.longitude)
         marker.markerType = MapPOIItem.MarkerType.BluePin;
         marker.selectedMarkerType = MapPOIItem.MarkerType.RedPin;
         mapView.addPOIItem(marker)
@@ -118,7 +120,7 @@ class MainActivity : AppCompatActivity(), MapView.POIItemEventListener, View.OnC
 
     override fun onPOIItemSelected(p0: MapView?, p1: MapPOIItem?) {
         val temp = p1 as DmapLocationData
-        ToiletSemiInfo().show(supportFragmentManager, "")
+        ToiletSemiInfo(temp).show(supportFragmentManager, "")
 
     }
 
@@ -129,8 +131,7 @@ class MainActivity : AppCompatActivity(), MapView.POIItemEventListener, View.OnC
     override fun onResume() {
         super.onResume()
         initMapView()
-        addMarker()
-
+        viewModel.getToiletReviewByLocation(latitude, longitude)
     }
 
     override fun onDestroy() {
@@ -149,9 +150,9 @@ class MainActivity : AppCompatActivity(), MapView.POIItemEventListener, View.OnC
 
             R.id.addToiletBtn -> {
                 binding.mapView.removeView(mapView)
-                val intent = Intent(this , AddMapActivity::class.java)
-                intent.putExtra("currentLongitude"  , longitude)
-                intent.putExtra("currentLatitude" , latitude)
+                val intent = Intent(this, AddMapActivity::class.java)
+                intent.putExtra("currentLongitude", longitude)
+                intent.putExtra("currentLatitude", latitude)
                 startActivity(intent)
 
             }
@@ -217,12 +218,18 @@ class MainActivity : AppCompatActivity(), MapView.POIItemEventListener, View.OnC
         mDialog= Dialog(this)
         mDialog.requestWindowFeature(Window.FEATURE_NO_TITLE);
         mDialog.setContentView(R.layout.loading_fragment);
-        mDialog.window?.setBackgroundDrawable(ColorDrawable (Color.TRANSPARENT));
+        mDialog.window?.setBackgroundDrawable(ColorDrawable(Color.TRANSPARENT));
         mDialog.setCancelable(true);
         mDialog.setCanceledOnTouchOutside(true);
         mDialog.show();
     }
 
+    fun getReviewData(){
+        viewModel.review_data_list.observe(this, Observer {
+            Log.d("toiletData" , it.toString())
+            it.forEach { addMarker(it) }
+        })
+    }
 
 
 }

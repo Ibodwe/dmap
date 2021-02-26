@@ -1,9 +1,8 @@
 package com.example.dmap.Map.CustomLocationData
 
-import net.daum.android.map.coord.MapCoord
+import com.example.dmap.Map.network.ToiletData
 import net.daum.mf.map.api.MapPOIItem
-import net.daum.mf.map.api.MapPoint
 
-data class DmapLocationData constructor(val test : String) : MapPOIItem(){
+data class DmapLocationData constructor(val data : ToiletData) : MapPOIItem(){
 
 }

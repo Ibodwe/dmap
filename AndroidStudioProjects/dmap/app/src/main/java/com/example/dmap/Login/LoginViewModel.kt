@@ -6,8 +6,10 @@ import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import com.example.dmap.Login.network.KakaoIdResponse
+import com.example.dmap.Login.network.LoginResponse
 import kotlinx.coroutines.launch
 import retrofit2.Call
+import retrofit2.Callback
 import retrofit2.Response
 
 class LoginViewModel : ViewModel() {
@@ -15,13 +17,17 @@ class LoginViewModel : ViewModel() {
     val repo = LoginRepository()
 
     var _kakaoId = MutableLiveData<String>()
-
     val kakaoId : LiveData<String>
     get() = _kakaoId
+
+    var _userLogin = MutableLiveData<Boolean>()
+    val userLogin : LiveData<Boolean>
+    get() = _userLogin
 
     fun getKakaoId(token : String){
 
         viewModelScope.launch {
+
             repo.signUpRequest(token).enqueue(object : retrofit2.Callback<KakaoIdResponse>{
                 override fun onResponse(
                     call: Call<KakaoIdResponse>,
@@ -39,4 +45,26 @@ class LoginViewModel : ViewModel() {
         }
 
     }
+
+    fun userLogin(userId : String , userPassword : String) {
+
+        viewModelScope.launch {
+            repo.userLogin(userId,userPassword).enqueue(object : Callback<LoginResponse>{
+                override fun onResponse(
+                    call: Call<LoginResponse>,
+                    response: Response<LoginResponse>
+                ) {
+                    if(response.body()!= null && response.isSuccessful){
+                        repo.user.userToken = response.body()!!.data.token
+                        _userLogin.value = true
+                    }
+                }
+
+                override fun onFailure(call: Call<LoginResponse>, t: Throwable) {
+
+                }
+            })
+        }
+    }
+
 }
