@@ -12,6 +12,13 @@ import org.junit.Assert.*
 class ExampleUnitTest {
     @Test
     fun addition_isCorrect() {
-        assertEquals(4, 2 + 2)
+        val test ="서울 중랑구 면목동 339-50"
+
+        val t = test.split(" ")
+
+        t.forEach {
+            println(t)
+        }
+
     }
 }

@@ -1,10 +1,8 @@
-package com.example.dmap.ToiletReviewDialog.data
+package com.example.dmap.ToiletReviewDialog.indivisual_review
 
-data class ToiletReviewResponse(
-    val result: List<Result>
-)
+import java.io.Serializable
 
-data class Result(
+data class IndividualItem(
     val amount_of_tissue: Int,
     val clean_of_toilet: Int,
     val createdAt: String,
@@ -20,4 +18,4 @@ data class Result(
     val toiletId: String,
     val updatedAt: String,
     val userId: String,
-)
+) : Serializable

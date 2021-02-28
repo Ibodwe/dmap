@@ -10,6 +10,7 @@ import androidx.lifecycle.Observer
 import com.example.dmap.Map.MainActivity
 import com.example.dmap.R
 import com.example.dmap.Signup.network.SignupRequest
+import com.example.dmap.User.User
 import com.example.dmap.databinding.ActivitySignUpBinding
 
 class SignUpActivity : AppCompatActivity() , View.OnClickListener {
@@ -61,7 +62,7 @@ class SignUpActivity : AppCompatActivity() , View.OnClickListener {
             }
 
             R.id.nextBtn ->{
-                signupViewModel.signUpRequest(SignupRequest(kakaoId, "dmap" , "0" , binding.nickNameET.text.toString(), genderValue ,1))
+                signupViewModel.signUpRequest(SignupRequest(User.userId.toString(), "dmap" , "0" , binding.nickNameET.text.toString(), genderValue ,1))
             }
         }
 

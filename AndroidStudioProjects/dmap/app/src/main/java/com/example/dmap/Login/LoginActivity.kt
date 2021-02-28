@@ -6,8 +6,10 @@ import android.util.Log
 import android.view.View
 import androidx.appcompat.app.AppCompatActivity
 import androidx.lifecycle.Observer
+import com.example.dmap.Map.MainActivity
 import com.example.dmap.R
 import com.example.dmap.Signup.SignUpActivity
+import com.example.dmap.User.User
 import com.example.dmap.databinding.ActivityLoginBinding
 import com.kakao.sdk.auth.LoginClient
 import com.kakao.sdk.auth.rx
@@ -30,24 +32,30 @@ class LoginActivity : AppCompatActivity() , View.OnClickListener {
         setContentView(view)
 
 
+        observe()
 
         binding.loginKakao.setOnClickListener(this)
 
         loginViewModel.kakaoId.observe(this , Observer {
 
             try {
-                if(it!=null){
-                    val intent = Intent(this , SignUpActivity::class.java)
-                    intent.putExtra("kakaoId" , it)
-                    startActivity(intent)
-                }
-
+                User.userId = it
+                loginViewModel.userLogin(it)
             }catch (e : Exception){
 
             }
         })
     }
 
+    override fun onResume() {
+        super.onResume()
+
+    }
+
+    override fun onPause() {
+        super.onPause()
+
+    }
     override fun onClick(v: View?) {
         when(v?.id){
             R.id.loginKakao -> { kakaoLogin()}
@@ -67,5 +75,16 @@ class LoginActivity : AppCompatActivity() , View.OnClickListener {
 
     }
 
+    fun observe(){
+        loginViewModel.userLogin.observe(this, Observer {
+            if(it){
+                //login 완료
+                startActivity(Intent(this , MainActivity::class.java))
+            }else{
+                //회원 가입 하면으로 이동
+                startActivity(Intent(this , SignUpActivity::class.java))
+            }
+        })
+    }
 
 }

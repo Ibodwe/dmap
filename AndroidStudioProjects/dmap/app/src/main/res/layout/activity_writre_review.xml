@@ -1,9 +1,255 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".WriteReview.WritreReviewActivity">
+    android:fillViewport="true"
+    tools:context=".WriteReview.WriteReviewActivity">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="36dp"
+        android:text="리뷰 제목을 입력해주세요."
+        app:layout_constraintHorizontal_bias="0.209"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/titleET"
+        android:layout_width="0dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginRight="50dp"
+        android:textSize="15dp"
+        android:lines="1"
+        android:background="@android:color/transparent"
+        android:hint="여기 화장실 너무 깨끗해요 "
+        android:text=""
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/textView10"
+        app:layout_constraintTop_toBottomOf="@+id/textView10" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="성별을 선택해주세요 "
+        app:layout_constraintStart_toStartOf="@+id/titleET"
+        app:layout_constraintTop_toBottomOf="@+id/titleET" />
+
+    <RadioGroup
+        android:id="@+id/genderRadioGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal"
+        app:layout_constraintStart_toStartOf="@+id/textView11"
+        app:layout_constraintTop_toBottomOf="@+id/textView11">
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="남자" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:text="여자" />
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="깨끗함은 어땠나요?"
+        android:layout_marginTop="15dp"
+        app:layout_constraintStart_toStartOf="@+id/genderRadioGroup"
+        app:layout_constraintTop_toBottomOf="@+id/genderRadioGroup" />
+
+
+    <RadioGroup
+        android:id="@+id/clearRadioGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal"
+        app:layout_constraintStart_toStartOf="@+id/textView12"
+        app:layout_constraintTop_toBottomOf="@+id/textView12">
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:text="2" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:text="3" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:text="4" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:text="5" />
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="wrap_content"
+        android:layout_height="18dp"
+        android:text="휴지의 양은 어땠나요?"
+        android:layout_marginTop="15dp"
+        app:layout_constraintStart_toStartOf="@+id/clearRadioGroup"
+        app:layout_constraintTop_toBottomOf="@+id/clearRadioGroup" />
+
+    <RadioGroup
+        android:id="@+id/tissueRadioGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal"
+        app:layout_constraintStart_toStartOf="@+id/textView13"
+        app:layout_constraintTop_toBottomOf="@+id/textView13">
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:text="2" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:text="3" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:text="4" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:text="5" />
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="얼마나 오래 된거 같나요?"
+        app:layout_constraintStart_toStartOf="@+id/tissueRadioGroup"
+        app:layout_constraintTop_toBottomOf="@+id/tissueRadioGroup" />
+
+    <NumberPicker
+        android:id="@+id/toiletYear"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="15dp"
+        app:layout_constraintStart_toStartOf="@+id/textView14"
+        app:layout_constraintTop_toBottomOf="@+id/textView14" />
+
+    <TextView
+        android:id="@+id/toiletPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="비밀번호가 있었나요?"
+        android:layout_marginTop="15dp"
+        app:layout_constraintStart_toStartOf="@+id/toiletYear"
+        app:layout_constraintTop_toBottomOf="@+id/toiletYear" />
+
+    <RadioGroup
+        android:id="@+id/passwordRadioGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal"
+        app:layout_constraintStart_toStartOf="@+id/toiletPassword"
+        app:layout_constraintTop_toBottomOf="@+id/toiletPassword">
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="있다" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:text="없다" />
+    </RadioGroup>
+
+        <TextView
+            android:id="@+id/textView16"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="한줄 총평을 남겨주세요"
+            app:layout_constraintStart_toStartOf="@+id/passwordRadioGroup"
+            app:layout_constraintTop_toBottomOf="@+id/passwordRadioGroup" />
+
+        <EditText
+            android:id="@+id/shortReview"
+            android:layout_width="0dp"
+            android:layout_height="35dp"
+            android:layout_marginRight="50dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:textSize="15dp"
+            android:background="@android:color/transparent"
+            android:hint="한번은 와볼만 하지만 다음은.. 글쎄?"
+            app:layout_constraintStart_toStartOf="@+id/textView16"
+            app:layout_constraintTop_toBottomOf="@+id/textView16" />
+
+        <Button
+        android:id="@+id/nextBtn"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_width="0dp"
+        android:layout_marginBottom="35dp"
+        android:layout_height="wrap_content"
+        android:text="리뷰 등록하기"
+        android:fontFamily="@font/nanumsquare_ac_eb"
+        android:background="@drawable/next_btn_bg"
+            android:layout_marginTop="50dp"
+        app:layout_constraintTop_toBottomOf="@+id/shortReview"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+    </Button>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>

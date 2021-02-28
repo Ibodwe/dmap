@@ -1,6 +1,7 @@
 package com.example.dmap.ToiletReviewDialog
 
 import android.app.Dialog
+import android.content.Intent
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
@@ -8,10 +9,11 @@ import android.view.ViewGroup
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.example.dmap.Map.CustomLocationData.DmapLocationData
-import com.example.dmap.Map.MainActivityViewModel
-import com.example.dmap.Map.indivisual_review.IndividualItem
-import com.example.dmap.Map.indivisual_review.IndividualReviewAdapter
+import com.example.dmap.ToiletReviewDialog.indivisual_review.IndividualItem
+import com.example.dmap.ToiletReviewDialog.indivisual_review.IndividualReviewAdapter
 import com.example.dmap.R
+import com.example.dmap.ToiletReviewDialog.indivisual_review.IndividualRecyclerModel
+import com.example.dmap.WriteReview.WriteReviewActivity
 import com.google.android.material.bottomsheet.BottomSheetBehavior
 import com.google.android.material.bottomsheet.BottomSheetDialogFragment
 import kotlinx.android.synthetic.main.toilet_bottom_info.view.*
@@ -19,17 +21,17 @@ import kotlinx.android.synthetic.main.toilet_bottom_info.view.*
 class ToiletSemiInfo(val data : DmapLocationData) : BottomSheetDialogFragment() {
 
 
-
-    val viewModel : MainActivityViewModel by lazy {
-        MainActivityViewModel()
-    }
-
     val individualReviewAdapter by lazy {
         IndividualReviewAdapter()
     }
 
     val toiletSemiInfoViewModel : ToiletSemiInfoViewModel by lazy{
         ToiletSemiInfoViewModel(individualReviewAdapter)
+    }
+
+
+    init {
+
     }
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
@@ -44,18 +46,15 @@ class ToiletSemiInfo(val data : DmapLocationData) : BottomSheetDialogFragment() 
         view.ratingBar.rating = 3.0f
 
         view.write_review.setOnClickListener {
+            val intent = Intent(requireContext() , WriteReviewActivity::class.java)
+            intent.putExtra("toiletLat",data.data.latitude)
+            intent.putExtra("toiletLon", data.data.longitude)
+            intent.putExtra("toiletId" , data.data.id)
+            startActivity(intent)
 
         }
 
         view.IndividualRecyclerView.adapter = individualReviewAdapter
-
-
-        individualReviewAdapter.addItem(IndividualItem())
-        individualReviewAdapter.addItem(IndividualItem())
-        individualReviewAdapter.addItem(IndividualItem())
-        individualReviewAdapter.addItem(IndividualItem())
-        individualReviewAdapter.addItem(IndividualItem())
-
 
         view.IndividualRecyclerView.layoutManager = LinearLayoutManager(requireContext(), LinearLayoutManager.VERTICAL , false)
     }
@@ -134,8 +133,11 @@ class ToiletSemiInfo(val data : DmapLocationData) : BottomSheetDialogFragment() 
         val address = "${addressData.city_name} ${addressData.goo_name} ${addressData.street_num_main} ${addressData.street_num_sub}"
 
         view.toilet_address.setText(address)
+    }
 
-
+    override fun onResume() {
+        super.onResume()
+        toiletSemiInfoViewModel.loadMoreData(data.data.id)
     }
 
 }

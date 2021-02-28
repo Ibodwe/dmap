@@ -1,9 +1,10 @@
-package com.example.dmap.Map.indivisual_review
+package com.example.dmap.ToiletReviewDialog.indivisual_review
 
+import android.util.Log
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 
-class IndividualReviewAdapter : RecyclerView.Adapter<RecyclerView.ViewHolder>() , IndividualRecyclerModel {
+class IndividualReviewAdapter() : RecyclerView.Adapter<RecyclerView.ViewHolder>() , IndividualRecyclerModel {
 
     private val list = mutableListOf<IndividualItem?>()
 
@@ -16,12 +17,12 @@ class IndividualReviewAdapter : RecyclerView.Adapter<RecyclerView.ViewHolder>() 
     }
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): RecyclerView.ViewHolder {
-       return IndividualReviewHolder(parent)
+       return IndividualReviewHolder(parent )
     }
 
     override fun addItem(imageData: IndividualItem?) {
         list.add(imageData)
-        notifyDataSetChange()
+        notifyDataSetChanged()
     }
 
     override fun getItem(position: Int): IndividualItem? {
@@ -31,6 +32,5 @@ class IndividualReviewAdapter : RecyclerView.Adapter<RecyclerView.ViewHolder>() 
     override fun notifyDataSetChange() {
     }
 
-    override lateinit var onClick: (Int) -> Unit
 
 }

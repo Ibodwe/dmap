@@ -1,4 +1,4 @@
-package com.example.dmap.Map.indivisual_review
+package com.example.dmap.ToiletReviewDialog.indivisual_review
 
 interface IndividualRecyclerModel {
 
@@ -10,5 +10,4 @@ interface IndividualRecyclerModel {
 
     fun notifyDataSetChange()
 
-    var onClick: (Int) -> Unit
 }

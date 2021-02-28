@@ -7,6 +7,7 @@ import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import com.example.dmap.Login.network.KakaoIdResponse
 import com.example.dmap.Login.network.LoginResponse
+import com.example.dmap.User.User
 import kotlinx.coroutines.launch
 import retrofit2.Call
 import retrofit2.Callback
@@ -46,18 +47,25 @@ class LoginViewModel : ViewModel() {
 
     }
 
-    fun userLogin(userId : String , userPassword : String) {
+    fun userLogin(userKakaoId : String) {
+
 
         viewModelScope.launch {
-            repo.userLogin(userId,userPassword).enqueue(object : Callback<LoginResponse>{
+            repo.userLogin(userKakaoId).enqueue(object : Callback<LoginResponse>{
                 override fun onResponse(
                     call: Call<LoginResponse>,
                     response: Response<LoginResponse>
                 ) {
-                    if(response.body()!= null && response.isSuccessful){
-                        repo.user.userToken = response.body()!!.data.token
-                        _userLogin.value = true
-                    }
+                        when(response.code()){
+                            201 -> {
+                                repo.user.userToken = response.body()!!.data.token
+                                _userLogin.value = true
+                            }
+                            401 -> {
+                                _userLogin.value = false
+                            }
+                        }
+
                 }
 
                 override fun onFailure(call: Call<LoginResponse>, t: Throwable) {

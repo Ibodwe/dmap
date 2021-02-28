@@ -87,8 +87,10 @@ class MainActivity : AppCompatActivity(), MapView.POIItemEventListener, View.OnC
             longitude = gpsTracker.longitude;
         }
 
+        mapView.setMapCenterPoint(MapPoint.mapPointWithGeoCoord(latitude, longitude), true);
         mapView.currentLocationTrackingMode =
-            MapView.CurrentLocationTrackingMode.TrackingModeOnWithoutHeading
+            MapView.CurrentLocationTrackingMode.TrackingModeOnWithoutHeadingWithoutMapMoving
+
 
     }
 

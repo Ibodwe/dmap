@@ -1,15 +1,12 @@
-package com.example.dmap.ToiletReviewDialog.data
+package com.example.dmap.WriteReview.data
 
-data class ToiletReviewResponse(
-    val result: List<Result>
-)
+import java.util.*
 
-data class Result(
+data class WriteReviewRequest(
     val amount_of_tissue: Int,
     val clean_of_toilet: Int,
-    val createdAt: String,
-    val id: String,
-    val image: String?,
+    val id: String ,
+    val image: String? = null,
     val is_old: Int,
     val is_secret: Int,
     val latitude: Double,
@@ -18,6 +15,5 @@ data class Result(
     val shot_detail: String,
     val title: String,
     val toiletId: String,
-    val updatedAt: String,
-    val userId: String,
+    val userId: String
 )
