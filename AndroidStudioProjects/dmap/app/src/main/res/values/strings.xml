@@ -1,8 +1,0 @@
-<resources>
-    <string name="app_name">My Application</string>
-
-    <string name="loging_activity_intro">가장 가까운 곳에 있는\n화장실을 찾아보세요."</string>
-    <string name="signup_activity_nickname_hint">사용하실 닉네임을 설정해 주세요.</string>
-    <string name="app_key">50edd21c581cfb35b6c89ef04ed6c20f</string>
-
-</resources>
